@@ -1,11 +1,12 @@
 {
     "private": true,
     "scripts": {
-        "clean": "",
-        "reset": "rimraf node_modules pnpm-lock.yaml"
+        "clean": "turbo run clean --parallel; rimraf node_modules/.cache",
+        "reset": "turbo run reset --parallel; rimraf node_modules pnpm-lock.yaml"
     },
     "devDependencies": {
-        "rimraf": "3.0.2"
+        "rimraf": "3.0.2",
+        "turbo": "1.1.9"
     },
     "engines": {
         "node": "16",
