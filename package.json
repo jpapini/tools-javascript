@@ -1,7 +1,12 @@
 {
     "private": true,
-    "scripts": {},
-    "devDependencies": {},
+    "scripts": {
+        "clean": "",
+        "reset": "rimraf node_modules pnpm-lock.yaml"
+    },
+    "devDependencies": {
+        "rimraf": "3.0.2"
+    },
     "engines": {
         "node": "16",
         "pnpm": "6"
