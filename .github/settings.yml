@@ -1,0 +1,55 @@
+repository:
+    # The name of the repository.
+    name: tools-javascript
+    # A short description of the repository.
+    description: Shared tools and configurations for JavaScript and TypeScript projects.
+    # A comma-separated list of topics to set on the repository.
+    topics: npm,node,javascript,typescript,tools
+    # Repository is private.
+    private: true
+    # Issues are enabled.
+    has_issues: true
+    # Projects are disabled.
+    has_projects: false
+    # Wiki is disabled.
+    has_wiki: false
+    # Downloads are enabled.
+    has_downloads: true
+    # Default branch for this repository.
+    default_branch: main
+    # Prevent squash-merging pull requests.
+    allow_squash_merge: false
+    # Allow merging pull requests with a merge commit.
+    allow_merge_commit: true
+    # Prevent rebase-merging pull requests.
+    allow_rebase_merge: false
+    # Allow auto-merge on pull requests.
+    allow_auto_merge: true
+    # Allow automatically deleting head branches when pull requests are merged.
+    delete_branch_on_merge: true
+
+branches:
+    - name: main
+      protection:
+          # Require at least one approving review on a pull request, before merging.
+          required_pull_request_reviews: null
+          # Require status checks to pass before merging.
+          required_status_checks:
+              # Require branches to be up to date before merging.
+              strict: true
+              # The list of status checks to require in order to merge into this branch.
+              contexts: []
+          # Restrict who can push to the protected branch.
+          restrictions: null
+          # Enforce all configured restrictions for administrators.
+          enforce_admins: true
+          # Permits force pushes to the protected branch.
+          allow_force_pushes: true
+          # Prevent deletion of the protected branch.
+          allow_deletions: false
+          # Disable a linear commit Git history.
+          required_linear_history: false
+          # Enforce signed commits.
+          required_signatures: true
+          # Requires all conversations on code to be resolved before a pull request can be merged.
+          required_conversation_resolution: true
