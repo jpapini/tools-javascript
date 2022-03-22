@@ -4,8 +4,8 @@ Shared tools and configurations for JavaScript and TypeScript projects.
 
 ## Table of contents <!-- omit in toc -->
 
-- [Packages](#packages)
-- [Author](#author)
+-   [Packages](#packages)
+-   [Author](#author)
 
 ## Packages
 

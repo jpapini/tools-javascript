@@ -4,9 +4,9 @@ Shared Prettier configuration for JavaScript projects.
 
 ## Table of contents <!-- omit in toc -->
 
-- [How to install](#how-to-install)
-- [How to use](#how-to-use)
-- [Author](#author)
+-   [How to install](#how-to-install)
+-   [How to use](#how-to-use)
+-   [Author](#author)
 
 ## How to install
 
