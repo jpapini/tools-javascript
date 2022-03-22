@@ -1,0 +1,53 @@
+### OS ###
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### IDEs ###
+.idea
+.vscode
+
+### Node.js ###
+node_modules
+
+### Cache ###
+.eslintcache
+.npm
+.parcel-cache
+.turbo
+*.tsbuildinfo
+
+### Tests ###
+coverage
+coverage.json
+
+### Compiled outputs ###
+.hardhat
+.next
+build
+dist
+generated
+out
+
+### Dotenv ###
+.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+### Logs ###
+.pnpm-debug.log*
+lerna-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+### Temporary files and folders ###
+old
+tmp
