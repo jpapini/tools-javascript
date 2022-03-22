@@ -1,0 +1,30 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        ":disableDependencyDashboard",
+        ":ignoreModulesAndTests",
+        ":pinAllExceptPeerDependencies",
+        ":prConcurrentLimitNone",
+        ":prHourlyLimitNone",
+        ":semanticCommitScope(deps)",
+        ":semanticPrefixFixDepsChoreOthers",
+        "group:allNonMajor",
+        "workarounds:typesNodeVersioning"
+    ],
+    "packageRules": [
+        {
+            "matchPackageNames": ["sort-package-json"],
+            "allowedVersions": "<=1.51.0"
+        }
+    ],
+    "hostRules": [
+        {
+            "matchHost": "https://npm.pkg.github.com/",
+            "hostType": "npm",
+            "encrypted": {
+                "token": "wcFMA/xDdHCJBTolARAAhIgBSu5NevzebhucpobLqg+NGnNOx9GGKUlgJ+mFJMaU8ZBIzBBc/tSdXISrLn+xjyfu1t5+EWkACZ9H7WTp/5M2VYHE8ExAGQ84eOZK4eKZ2Y0G0bMKIVP2fRbtibQoygrMCtvBnwWXB20BWdZDQUpck4zHbZiBX7r9p0gpY7kpixGQndSxVJeFJOKZHNzihzgwl6IhKn+12jlMDXhgphqJPmSRX5KzgNRsGj0G+Nc+aV6UYhkDegeECM8gn2dNtlpzA8j4GsI/w052/pGW+mikNJhn2h6XsYx2L0RzV0x+QMiH2vvMxYBzwB7fnefbyNQAPGeS4PzXib81eUscjz9/juicceZLfSuPSqXYlvw43AvoVerd1h2Z2bebclZO7xfQozEAzdAV1zfH/yd8aAkpTooJTUhZtkQsttVskK0ttSSa7ktO482GfbG+Wl/6JziA7Lfgoep/3nXOFKlGP1szdO3e+nVUHC69Yev2VL66VTCpwtT/60ExN4UNYi6ije5buNLW0Komj4owx8lXX23B0g8IaFtYwgDpdrpq0blcx6PHovuyfWASp0RShLvdGmfGbq4TNlk71TkDzOyFJlAJT2B7YDWBiKQ0b4JUxqqPYJ/hQ1k2ri7wlzYVz34RXuSjImYNnQ4bxyOhE3Mh+x2jId+B5zZ4QTJrXcZLgm/SdgFpJCjBoUBK58Aw4Z0c6veCRMxr0jExO8vn9sbJOsbtuQx2TVwF2XUpIJnl3ZIAed7LPffkz6aUhJeye9TjSfoMjLwN1FsDSDnO9Z4R9v2yaX1iXh5rmFD+9YxjgZ6tAzY3KnBxVNK4JNOVIVd6UJWziCfXTbo"
+            }
+        }
+    ],
+    "npmrc": "@jpapini:registry=https://npm.pkg.github.com"
+}

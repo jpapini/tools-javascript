@@ -1,0 +1,34 @@
+{
+    "name": "@jpapini/renovate-config",
+    "version": "0.0.1",
+    "description": "Shared Renovate configuration for JavaScript projects.",
+    "homepage": "https://github.com/jpapini/tools-javascript#readme",
+    "bugs": {
+        "url": "https://github.com/jpapini/tools-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jpapini/tools-javascript.git",
+        "directory": "packages/renovate-config"
+    },
+    "license": "UNLICENSED",
+    "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "main": "index.js",
+    "files": [
+        "default.json",
+        "index.js"
+    ],
+    "scripts": {
+        "clean": "rimraf .turbo",
+        "reset": "rimraf .turbo node_modules"
+    },
+    "devDependencies": {
+        "rimraf": "3.0.2"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

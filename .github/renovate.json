@@ -1,0 +1,3 @@
+{
+    "extends": ["github>jpapini/tools-javascript//packages/renovate-config/default"]
+}
