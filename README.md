@@ -11,6 +11,7 @@ Shared tools and configurations for JavaScript and TypeScript projects.
 
 | Name                                                                                                                                                   | Description                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| [@jpapini/commitlint-config](https://github.com/jpapini/tools-javascript/tree/main/packages/commitlint-config)                                         | Shared Commitlint configuration for JavaScript projects.                     |
 | [@jpapini/eslint-config](https://github.com/jpapini/tools-javascript/tree/main/packages/eslint-config)                                                 | Shared ESLint configuration for JavaScript projects.                         |
 | [@jpapini/npm-package-json-lint-config-monorepo](https://github.com/jpapini/tools-javascript/tree/main/packages/npm-package-json-lint-config-monorepo) | Shared npm-package-json-lint configuration for JavaScript monorepo projects. |
 | [@jpapini/prettier-config](https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config)                                             | Shared Prettier configuration for JavaScript projects.                       |

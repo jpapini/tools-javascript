@@ -24,6 +24,8 @@
     "devDependencies": {
         "@changesets/changelog-github": "0.4.3",
         "@changesets/cli": "2.21.1",
+        "@commitlint/cli": "16.2.3",
+        "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/eslint-config": "workspace:*",
         "@jpapini/npm-package-json-lint-config-monorepo": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
