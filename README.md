@@ -4,14 +4,15 @@ Shared tools and configurations for JavaScript and TypeScript projects.
 
 ## Table of contents <!-- omit in toc -->
 
--   [Packages](#packages)
--   [Author](#author)
+- [Packages](#packages)
+- [Author](#author)
 
 ## Packages
 
 | Name                                                                                                       | Description                                            |
 | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | [@jpapini/prettier-config](https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config) | Shared Prettier configuration for JavaScript projects. |
+| [@jpapini/renovate-config](https://github.com/jpapini/tools-javascript/tree/main/packages/renovate-config) | Shared Renovate configuration for JavaScript projects. |
 
 ## Author
 
