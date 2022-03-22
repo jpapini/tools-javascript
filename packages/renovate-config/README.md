@@ -4,8 +4,8 @@ Shared Renovate configuration for JavaScript projects.
 
 ## Table of contents <!-- omit in toc -->
 
-- [How to install](#how-to-install)
-- [Author](#author)
+-   [How to install](#how-to-install)
+-   [Author](#author)
 
 ## How to install
 

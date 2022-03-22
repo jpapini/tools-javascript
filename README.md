@@ -4,15 +4,16 @@ Shared tools and configurations for JavaScript and TypeScript projects.
 
 ## Table of contents <!-- omit in toc -->
 
-- [Packages](#packages)
-- [Author](#author)
+-   [Packages](#packages)
+-   [Author](#author)
 
 ## Packages
 
-| Name                                                                                                       | Description                                            |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [@jpapini/prettier-config](https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config) | Shared Prettier configuration for JavaScript projects. |
-| [@jpapini/renovate-config](https://github.com/jpapini/tools-javascript/tree/main/packages/renovate-config) | Shared Renovate configuration for JavaScript projects. |
+| Name                                                                                                                                                   | Description                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| [@jpapini/npm-package-json-lint-config-monorepo](https://github.com/jpapini/tools-javascript/tree/main/packages/npm-package-json-lint-config-monorepo) | Shared npm-package-json-lint configuration for JavaScript monorepo projects. |
+| [@jpapini/prettier-config](https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config)                                             | Shared Prettier configuration for JavaScript projects.                       |
+| [@jpapini/renovate-config](https://github.com/jpapini/tools-javascript/tree/main/packages/renovate-config)                                             | Shared Renovate configuration for JavaScript projects.                       |
 
 ## Author
 

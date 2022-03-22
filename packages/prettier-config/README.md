@@ -13,12 +13,6 @@ Shared Prettier configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ npm i -D @jpapini/prettier-config prettier
-```
-
-or
-
-```shell
 $ pnpm add -D @jpapini/prettier-config prettier
 ```
 
@@ -38,9 +32,9 @@ Don't forget to create a `.prettierignore` file to ignore unnecessary files.
 
 ## How to use
 
-Run `npm run lint:prettier` for linting files.
+Run `pnpm lint:prettier` for linting files.
 
-Run `npm run format:prettier` for formatting files.
+Run `pnpm format:prettier` for formatting files.
 
 ## Author
 

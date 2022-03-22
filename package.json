@@ -5,6 +5,7 @@
         "reset": "turbo run reset --parallel; rimraf node_modules pnpm-lock.yaml",
         "lint": "run-s -c lint:*",
         "lint:prettier": "prettier --check .",
+        "lint:pkglint": "npmPkgJsonLint .",
         "format": "run-s -c format:*",
         "format:prettier": "prettier --write .",
         "changeset": "changeset",
@@ -16,7 +17,9 @@
     "devDependencies": {
         "@changesets/changelog-github": "0.4.3",
         "@changesets/cli": "2.21.1",
+        "@jpapini/npm-package-json-lint-config-monorepo": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
+        "npm-package-json-lint": "6.3.0",
         "npm-run-all": "4.1.5",
         "prettier": "2.6.0",
         "rimraf": "3.0.2",
@@ -25,6 +28,9 @@
     "engines": {
         "node": "16",
         "pnpm": "6"
+    },
+    "npmpackagejsonlint": {
+        "extends": "@jpapini/npm-package-json-lint-config-monorepo"
     },
     "packageManager": "pnpm@6.32.3",
     "volta": {
