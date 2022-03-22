@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
+    echo "CI or production environment, skipping Husky hook"
+    exit 0
+fi
+
+. "$(dirname "$0")/_/husky.sh"
+./node_modules/.bin/commitlint --edit "$1" --config ./node_modules/@jpapini/commitlint-config/index.js

@@ -1,0 +1,46 @@
+{
+    "name": "@jpapini/husky-config",
+    "version": "0.0.1",
+    "description": "Shared Husky configuration for JavaScript projects.",
+    "homepage": "https://github.com/jpapini/tools-javascript#readme",
+    "bugs": {
+        "url": "https://github.com/jpapini/tools-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jpapini/tools-javascript.git",
+        "directory": "packages/husky-config"
+    },
+    "license": "UNLICENSED",
+    "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "main": "install.sh",
+    "files": [
+        "hooks",
+        "install.sh"
+    ],
+    "scripts": {
+        "clean": "rimraf .turbo",
+        "reset": "rimraf .turbo hooks/_ node_modules"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "16.2.3",
+        "@jpapini/commitlint-config": "workspace:*",
+        "@jpapini/lint-staged-config": "workspace:*",
+        "husky": "7.0.4",
+        "lint-staged": "12.3.7",
+        "rimraf": "3.0.2"
+    },
+    "peerDependencies": {
+        "@commitlint/cli": ">=16.2.3",
+        "@jpapini/commitlint-config": "*",
+        "@jpapini/lint-staged-config": "*",
+        "husky": ">=7.0.4",
+        "lint-staged": ">=12.3.7"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}
