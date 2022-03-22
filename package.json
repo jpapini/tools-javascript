@@ -5,20 +5,27 @@
         "reset": "turbo run reset --parallel; rimraf node_modules pnpm-lock.yaml",
         "lint": "run-s -c lint:*",
         "lint:prettier": "prettier --check .",
+        "lint:eslint": "eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache .",
         "lint:pkglint": "npmPkgJsonLint .",
         "format": "run-s -c format:*",
         "format:prettier": "prettier --write .",
+        "format:eslint": "eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --fix .",
         "changeset": "changeset",
         "changeset:status": "changeset status",
         "ci:version": "changeset version",
         "ci:publish": "changeset publish"
     },
     "prettier": "@jpapini/prettier-config",
+    "eslintConfig": {
+        "extends": "@jpapini/eslint-config"
+    },
     "devDependencies": {
         "@changesets/changelog-github": "0.4.3",
         "@changesets/cli": "2.21.1",
+        "@jpapini/eslint-config": "workspace:*",
         "@jpapini/npm-package-json-lint-config-monorepo": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
+        "eslint": "8.11.0",
         "npm-package-json-lint": "6.3.0",
         "npm-run-all": "4.1.5",
         "prettier": "2.6.0",
