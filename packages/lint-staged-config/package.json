@@ -1,0 +1,45 @@
+{
+    "name": "@jpapini/lint-staged-config",
+    "version": "0.0.1",
+    "description": "Shared lint-staged configuration for JavaScript projects.",
+    "homepage": "https://github.com/jpapini/tools-javascript#readme",
+    "bugs": {
+        "url": "https://github.com/jpapini/tools-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jpapini/tools-javascript.git",
+        "directory": "packages/lint-staged-config"
+    },
+    "license": "UNLICENSED",
+    "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "clean": "rimraf .turbo",
+        "reset": "rimraf .turbo node_modules"
+    },
+    "devDependencies": {
+        "eslint": "8.11.0",
+        "lint-staged": "12.3.7",
+        "npm-package-json-lint": "6.3.0",
+        "prettier": "2.6.0",
+        "rimraf": "3.0.2",
+        "sort-package-json": "1.51.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.11.0",
+        "lint-staged": ">=12.3.7",
+        "npm-package-json-lint": ">=6.3.0",
+        "prettier": ">=2.6.0",
+        "sort-package-json": "1.51.0"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}
