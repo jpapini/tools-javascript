@@ -12,23 +12,7 @@ Shared Husky configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D \
-    @jpapini/husky-config \
-    @jpapini/commitlint-config \
-    @jpapini/lint-staged-config \
-    husky \
-    lint-staged \
-    @commitlint/cli
-```
-
-Add the following fields to your `package.json`:
-
-```json
-{
-    "scripts": {
-        "prepare": "./node_modules/@jpapini/husky-config/install.sh"
-    }
-}
+$ pnpm add -D @jpapini/husky-config
 ```
 
 ## Author

@@ -20,22 +20,18 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo hooks/_ node_modules"
+        "reset": "rimraf .turbo hooks/_ node_modules",
+        "postinstall": "./install.sh"
     },
-    "devDependencies": {
+    "dependencies": {
         "@commitlint/cli": "16.2.3",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/lint-staged-config": "workspace:*",
         "husky": "7.0.4",
-        "lint-staged": "12.3.7",
-        "rimraf": "3.0.2"
+        "lint-staged": "12.3.7"
     },
-    "peerDependencies": {
-        "@commitlint/cli": ">=16.2.3",
-        "@jpapini/commitlint-config": "*",
-        "@jpapini/lint-staged-config": "*",
-        "husky": ">=7.0.4",
-        "lint-staged": ">=12.3.7"
+    "devDependencies": {
+        "rimraf": "3.0.2"
     },
     "engines": {
         "node": "16"

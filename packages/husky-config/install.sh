@@ -5,4 +5,10 @@ if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
     exit 0
 fi
 
-./node_modules/.bin/husky install $(dirname "$0")/hooks/
+SCRIPT_PATH="$(cd -- "$(dirname "$0")" >/dev/null 2>&1; pwd -P)"
+
+if [ ! -z "$INIT_CWD" ]; then
+    cd $INIT_CWD;
+fi
+
+$SCRIPT_PATH/node_modules/.bin/husky install $SCRIPT_PATH/hooks/

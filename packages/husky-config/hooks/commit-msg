@@ -5,5 +5,7 @@ if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
     exit 0
 fi
 
-. "$(dirname "$0")/_/husky.sh"
-./node_modules/.bin/commitlint --edit "$1" --config ./node_modules/@jpapini/commitlint-config/index.js
+SCRIPT_PATH="$(cd -- "$(dirname "$0")" >/dev/null 2>&1; pwd -P)"
+
+. "$SCRIPT_PATH/_/husky.sh"
+$SCRIPT_PATH/../node_modules/.bin/commitlint --edit "$1" --config $SCRIPT_PATH/../node_modules/@jpapini/commitlint-config/index.js
