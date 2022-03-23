@@ -5,8 +5,8 @@ Shared ESLint configuration for JavaScript projects.
 ## Table of contents <!-- omit in toc -->
 
 -   [How to install](#how-to-install)
-    -   [Jest rules](#jest-rules)
     -   [TypeScript rules](#typescript-rules)
+    -   [Jest rules](#jest-rules)
 -   [How to use](#how-to-use)
 -   [Author](#author)
 
@@ -34,24 +34,6 @@ Add the following fields to your `package.json`:
 
 Don't forget to create a `.eslintignore` file to ignore unnecessary files.
 
-### Jest rules
-
-Run the following command to install the required dependencies:
-
-```shell
-$ pnpm add -D jest
-```
-
-Add the following fields to your `package.json`:
-
-```json
-{
-    "eslintConfig": {
-        "extends": ["@jpapini/eslint-config", "@jpapini/eslint-config/jest"]
-    }
-}
-```
-
 ### TypeScript rules
 
 Run the following command to install the required dependencies:
@@ -66,6 +48,24 @@ Add the following fields to your `package.json`:
 {
     "eslintConfig": {
         "extends": ["@jpapini/eslint-config", "@jpapini/eslint-config/typescript"]
+    }
+}
+```
+
+### Jest rules
+
+Run the following command to install the required dependencies:
+
+```shell
+$ pnpm add -D jest
+```
+
+Add the following fields to your `package.json`:
+
+```json
+{
+    "eslintConfig": {
+        "extends": ["@jpapini/eslint-config", "@jpapini/eslint-config/jest"]
     }
 }
 ```
