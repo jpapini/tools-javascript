@@ -1,0 +1,62 @@
+name: Synchronize
+
+on:
+    pull_request:
+        branches: [main]
+        types: [opened, reopened, synchronize]
+
+jobs:
+    test-commits:
+        name: Test / Commits
+        runs-on: ubuntu-latest
+        timeout-minutes: 5
+        steps:
+            - name: Checking out the repository
+              uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+
+            - name: Setting up PNPM
+              uses: pnpm/action-setup@v2
+
+            - name: Setting up Node.js 16
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '16'
+                  cache: 'pnpm'
+
+            - name: Installing Node.js dependencies
+              env:
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+              run: pnpm install --frozen-lockfile
+
+            - name: Linting commits
+              uses: wagoid/commitlint-github-action@v4
+              with:
+                  configFile: node_modules/@jpapini/husky-config/node_modules/@jpapini/commitlint-config/index.js
+                  failOnWarnings: true
+
+    test-linting:
+        name: Test / Linting
+        runs-on: ubuntu-latest
+        timeout-minutes: 5
+        steps:
+            - name: Checking out the repository
+              uses: actions/checkout@v3
+
+            - name: Setting up PNPM
+              uses: pnpm/action-setup@v2
+
+            - name: Setting up Node.js 16
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '16'
+                  cache: 'pnpm'
+
+            - name: Installing Node.js dependencies
+              env:
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+              run: pnpm install --frozen-lockfile
+
+            - name: Linting source code
+              run: pnpm lint
