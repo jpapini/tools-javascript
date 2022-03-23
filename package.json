@@ -26,7 +26,7 @@
         "@changesets/cli": "2.21.1",
         "@jpapini/eslint-config": "workspace:*",
         "@jpapini/husky-config": "workspace:*",
-        "@jpapini/npm-package-json-lint-config-monorepo": "workspace:*",
+        "@jpapini/npm-package-json-lint-config": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
         "eslint": "8.11.0",
         "npm-package-json-lint": "6.3.0",
@@ -41,7 +41,7 @@
         "pnpm": "6"
     },
     "npmpackagejsonlint": {
-        "extends": "@jpapini/npm-package-json-lint-config-monorepo"
+        "extends": "@jpapini/npm-package-json-lint-config/monorepo"
     },
     "packageManager": "pnpm@6.32.3",
     "volta": {
