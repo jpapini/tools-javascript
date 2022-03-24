@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/git-hooks",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Shared Git hooks for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript#readme",
     "bugs": {
@@ -13,11 +13,10 @@
     },
     "license": "UNLICENSED",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
-    "main": "install.sh",
     "files": [
-        "config",
         "hooks",
-        "install.sh"
+        "install.sh",
+        "resolve.js"
     ],
     "scripts": {
         "clean": "rimraf .turbo",
@@ -26,7 +25,8 @@
     },
     "dependencies": {
         "@commitlint/cli": "16.2.3",
-        "@commitlint/config-conventional": "16.2.1",
+        "@jpapini/commitlint-config": "workspace:*",
+        "@jpapini/lint-staged-config": "workspace:*",
         "husky": "7.0.4",
         "lint-staged": "12.3.7"
     },

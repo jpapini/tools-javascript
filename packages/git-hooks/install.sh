@@ -5,10 +5,11 @@ if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
     exit 0
 fi
 
-SCRIPT_PATH="$(cd -- "$(dirname "$0")" >/dev/null 2>&1; pwd -P)"
+HUSKY_BIN="$(./resolve.js husky/lib/bin.js)"
+HOOKS_DIR="$(cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P)/hooks"
 
 if [ ! -z "$INIT_CWD" ]; then
     cd $INIT_CWD;
 fi
 
-$SCRIPT_PATH/node_modules/.bin/husky install $SCRIPT_PATH/hooks/
+"$HUSKY_BIN" install "$HOOKS_DIR"

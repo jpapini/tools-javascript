@@ -33,7 +33,7 @@ jobs:
             - name: Linting commits
               uses: wagoid/commitlint-github-action@v4
               with:
-                  configFile: node_modules/@jpapini/git-hooks/config/commitlint.config.js
+                  configFile: node_modules/@jpapini/git-hooks/node_modules/@jpapini/commitlint-config/index.js
                   failOnWarnings: true
 
     test-linting:

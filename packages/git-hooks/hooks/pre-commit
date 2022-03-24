@@ -5,5 +5,9 @@ if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
     exit 0
 fi
 
+RESOLVE="$(dirname "$0")/../resolve.js"
+BIN="$(dirname $("$RESOLVE" "lint-staged"))/../bin/lint-staged.js"
+CONFIG="$("$RESOLVE" "@jpapini/lint-staged-config")"
+
 . "$(dirname "$0")/_/husky.sh"
-$(dirname "$0")/../node_modules/.bin/lint-staged --config $(dirname "$0")/../config/lint-staged.config.js
+"$BIN" --config "$CONFIG"

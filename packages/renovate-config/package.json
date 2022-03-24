@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/renovate-config",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "Shared Renovate configuration for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript#readme",
     "bugs": {

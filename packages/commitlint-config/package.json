@@ -1,7 +1,7 @@
 {
-    "name": "@jpapini/npm-package-json-lint-config",
+    "name": "@jpapini/commitlint-config",
     "version": "0.0.5",
-    "description": "Shared npm-package-json-lint configuration for JavaScript projects.",
+    "description": "Shared Commitlint configuration for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -9,25 +9,27 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jpapini/tools-javascript.git",
-        "directory": "packages/npm-package-json-lint-config"
+        "directory": "packages/commitlint-config"
     },
     "license": "UNLICENSED",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
-        "index.js",
-        "monorepo.js"
+        "index.js"
     ],
     "scripts": {
         "clean": "rimraf .turbo",
         "reset": "rimraf .turbo node_modules"
     },
+    "dependencies": {
+        "@commitlint/config-conventional": "16.2.1"
+    },
     "devDependencies": {
-        "npm-package-json-lint": "6.3.0",
+        "@commitlint/cli": "16.2.3",
         "rimraf": "3.0.2"
     },
     "peerDependencies": {
-        "npm-package-json-lint": ">=6.3.0"
+        "@commitlint/cli": ">=16.2.3"
     },
     "engines": {
         "node": "16"
