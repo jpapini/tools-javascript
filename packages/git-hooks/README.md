@@ -12,7 +12,7 @@ Shared Husky configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/husky-config
+$ pnpm add -D @jpapini/git-hooks
 ```
 
 ## Author

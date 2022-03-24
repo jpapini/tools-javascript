@@ -7,7 +7,7 @@ importers:
       '@changesets/changelog-github': 0.4.3
       '@changesets/cli': 2.21.1
       '@jpapini/eslint-config': workspace:*
-      '@jpapini/husky-config': workspace:*
+      '@jpapini/git-hooks': workspace:*
       '@jpapini/npm-package-json-lint-config': workspace:*
       '@jpapini/prettier-config': workspace:*
       eslint: 8.11.0
@@ -21,7 +21,7 @@ importers:
       '@changesets/changelog-github': 0.4.3
       '@changesets/cli': 2.21.1
       '@jpapini/eslint-config': link:packages/eslint-config
-      '@jpapini/husky-config': link:packages/husky-config
+      '@jpapini/git-hooks': link:packages/git-hooks
       '@jpapini/npm-package-json-lint-config': link:packages/npm-package-json-lint-config
       '@jpapini/prettier-config': link:packages/prettier-config
       eslint: 8.11.0
@@ -74,7 +74,7 @@ importers:
       rimraf: 3.0.2
       typescript: 4.6.2
 
-  packages/husky-config:
+  packages/git-hooks:
     specifiers:
       '@commitlint/cli': 16.2.3
       '@jpapini/commitlint-config': workspace:*
@@ -1668,8 +1668,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001319
-      electron-to-chromium: 1.4.91
+      caniuse-lite: 1.0.30001320
+      electron-to-chromium: 1.4.92
       escalade: 3.1.1
       node-releases: 2.0.2
       picocolors: 1.0.0
@@ -1716,8 +1716,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001319:
-    resolution: {integrity: sha512-xjlIAFHucBRSMUo1kb5D4LYgcN1M45qdKP++lhqowDpwJwGkpIRTt5qQqnhxjj1vHcI7nrJxWhCC1ATrCEBTcw==}
+  /caniuse-lite/1.0.30001320:
+    resolution: {integrity: sha512-MWPzG54AGdo3nWx7zHZTefseM5Y1ccM7hlQKHRqJkPozUaw3hNbBTMmLn16GG2FUzjR13Cr3NPfhIieX5PzXDA==}
     dev: true
 
   /chalk/2.4.2:
@@ -2136,8 +2136,8 @@ packages:
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium/1.4.91:
-    resolution: {integrity: sha512-Z7Jkc4+ouEg8F6RrrgLOs0kkJjI0cnyFQmnGVpln8pPifuKBNbUr37GMgJsCTSwy6Z9TK7oTwW33Oe+3aERYew==}
+  /electron-to-chromium/1.4.92:
+    resolution: {integrity: sha512-YAVbvQIcDE/IJ/vzDMjD484/hsRbFPW2qXJPaYTfOhtligmfYEYOep+5QojpaEU9kq6bMvNeC2aG7arYvTHYsA==}
     dev: true
 
   /emittery/0.8.1:
