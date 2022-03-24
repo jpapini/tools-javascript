@@ -38,7 +38,7 @@ branches:
               # Require branches to be up to date before merging.
               strict: true
               # The list of status checks to require in order to merge into this branch.
-              contexts: []
+              contexts: ['Test / Commits', 'Test / Linting']
           # Restrict who can push to the protected branch.
           restrictions: null
           # Enforce all configured restrictions for administrators.
