@@ -1,11 +1,6 @@
 {
     "$schema": "https://unpkg.com/@changesets/config@1.7.0/schema.json",
-    "commit": false,
-    "access": "restricted",
     "baseBranch": "main",
-    "ignore": [],
-    "linked": [],
-    "updateInternalDependencies": "patch",
     "changelog": ["@changesets/changelog-github", { "repo": "jpapini/tools-javascript" }],
     "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
         "onlyUpdatePeerDependentsWhenOutOfRange": true,

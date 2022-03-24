@@ -17,14 +17,7 @@
             "allowedVersions": "<=1.51.0"
         }
     ],
-    "hostRules": [
-        {
-            "matchHost": "https://npm.pkg.github.com/",
-            "hostType": "npm",
-            "encrypted": {
-                "token": "wcFMA/xDdHCJBTolARAAhIgBSu5NevzebhucpobLqg+NGnNOx9GGKUlgJ+mFJMaU8ZBIzBBc/tSdXISrLn+xjyfu1t5+EWkACZ9H7WTp/5M2VYHE8ExAGQ84eOZK4eKZ2Y0G0bMKIVP2fRbtibQoygrMCtvBnwWXB20BWdZDQUpck4zHbZiBX7r9p0gpY7kpixGQndSxVJeFJOKZHNzihzgwl6IhKn+12jlMDXhgphqJPmSRX5KzgNRsGj0G+Nc+aV6UYhkDegeECM8gn2dNtlpzA8j4GsI/w052/pGW+mikNJhn2h6XsYx2L0RzV0x+QMiH2vvMxYBzwB7fnefbyNQAPGeS4PzXib81eUscjz9/juicceZLfSuPSqXYlvw43AvoVerd1h2Z2bebclZO7xfQozEAzdAV1zfH/yd8aAkpTooJTUhZtkQsttVskK0ttSSa7ktO482GfbG+Wl/6JziA7Lfgoep/3nXOFKlGP1szdO3e+nVUHC69Yev2VL66VTCpwtT/60ExN4UNYi6ije5buNLW0Komj4owx8lXX23B0g8IaFtYwgDpdrpq0blcx6PHovuyfWASp0RShLvdGmfGbq4TNlk71TkDzOyFJlAJT2B7YDWBiKQ0b4JUxqqPYJ/hQ1k2ri7wlzYVz34RXuSjImYNnQ4bxyOhE3Mh+x2jId+B5zZ4QTJrXcZLgm/SdgFpJCjBoUBK58Aw4Z0c6veCRMxr0jExO8vn9sbJOsbtuQx2TVwF2XUpIJnl3ZIAed7LPffkz6aUhJeye9TjSfoMjLwN1FsDSDnO9Z4R9v2yaX1iXh5rmFD+9YxjgZ6tAzY3KnBxVNK4JNOVIVd6UJWziCfXTbo"
-            }
-        }
-    ],
-    "npmrc": "@jpapini:registry=https://npm.pkg.github.com"
+    "encrypted": {
+        "npmToken": "wcFMA/xDdHCJBTolAQ/7BslieL6Kge010phR40gICGFlIxySbcf2+IpWTX2jhFwx73l4d2wAB5xdv3je+5QipmwDGWxf/mAZyKcMx92bsHQupYnyPH8HTkf1XrPkdoJdO8g+8kfVaBfaR3w0dg6E+gvMUDpNUWxb7g75Pr8n2oO1sq7a/v2I0VfH//0gx4oJtXX3swIX84T97EA2BcSN2/61qSmLbaIs9HDGZCErcIjeFEILa7SBvDsxFZ6sQJRLS0S5yfIGXZN9hisAV5QRtO3TBKLEIAl1PmA5IJbyahvDvTnGTyxdt49uth+hLxI8aYCB555Jmnm/tB52EemTOycrF0L+7oTvOD+NV8TYp9x9rnvoYfR0G4D7pvMUJOAASv8IpoxHVJwfFkfVPAG9sc453phu8tfE2WiwxFyWI7d6w9rBh5ohRuKn5i/J0mLzpChyohytZ93ivPXpAZ8pVmPHAVDkowO0rZJ+NcsiKa6fa6ijNU0rQNzhZFy2demkTBjisBgOJcXUTJVjvArtrnT8atVL+6cCAhJFUNk9pdm7IdlHW6I/XTEOKaBU0KRG2SBTdX6gYOLfj+IqwqEDwa0GtXgkYZn+umudC6+GusbPmLI1SF+npjhZhB2mVLX490zJJqTevBiFXfZ4kuUVlmGRhgm0L+Vc6p54okaLLudMUWjiGXsQqpyzu8KnfavSdwGqdjSXwApEi7zyiwI9IATxBbs+vxPdFuRQozh4c6wM3B13mw6+sfOarlS9xUV2tiTHuIDBkMyWa9nnNMC8rl2EoaYITyiUw7uQkxbull9aGovL1i0w44FHFEQuQtE9Au2YgUcASAI4jkv2x6WLz9natfijv3l6"
+    }
 }

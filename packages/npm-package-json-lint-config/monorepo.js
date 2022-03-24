@@ -164,10 +164,7 @@ module.exports = {
                 // Error if the value in private is not equal to one of the values in the array of valid values.
                 'valid-values-private': ['error', [false]],
                 // Error if the value in publishConfig is not equal to one of the values in the array of valid values.
-                'valid-values-publishConfig': [
-                    'error',
-                    [{ registry: 'https://npm.pkg.github.com' }],
-                ],
+                'valid-values-publishConfig': ['error', [{ access: 'restricted' }]],
             },
         },
     ],

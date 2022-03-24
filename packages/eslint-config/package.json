@@ -59,6 +59,6 @@
         "node": "16"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
+        "access": "restricted"
     }
 }
