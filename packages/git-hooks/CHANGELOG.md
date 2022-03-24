@@ -1,0 +1,11 @@
+# @jpapini/git-hooks
+
+## 0.0.2
+
+### Patch Changes
+
+-   [`25a89fa`](https://github.com/jpapini/tools-javascript/commit/25a89fa3752655994ba3cd9c0e0f3202eca1c28e) Thanks [@jpapini](https://github.com/jpapini)! - Creating Git hooks with Husky.
+
+-   Updated dependencies [[`25a89fa`](https://github.com/jpapini/tools-javascript/commit/25a89fa3752655994ba3cd9c0e0f3202eca1c28e), [`25a89fa`](https://github.com/jpapini/tools-javascript/commit/25a89fa3752655994ba3cd9c0e0f3202eca1c28e)]:
+    -   @jpapini/lint-staged-config@0.0.2
+    -   @jpapini/commitlint-config@0.0.2
