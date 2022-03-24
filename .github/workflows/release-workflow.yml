@@ -44,7 +44,7 @@ jobs:
               uses: changesets/action@v1
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
               with:
                   setupGitUser: false
                   commit: 'chore(release): bump vesion'
