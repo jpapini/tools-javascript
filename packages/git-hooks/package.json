@@ -1,7 +1,7 @@
 {
     "name": "@jpapini/git-hooks",
     "version": "0.0.1",
-    "description": "Shared Husky configuration for JavaScript projects.",
+    "description": "Shared Git hooks for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"

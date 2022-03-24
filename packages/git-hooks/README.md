@@ -1,6 +1,6 @@
-# Tools - Husky configuration <!-- omit in toc -->
+# Tools - Git hooks <!-- omit in toc -->
 
-Shared Husky configuration for JavaScript projects.
+Shared Git hooks for JavaScript projects.
 
 ## Table of contents <!-- omit in toc -->
 
