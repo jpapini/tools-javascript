@@ -5,7 +5,5 @@ if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
     exit 0
 fi
 
-SCRIPT_PATH="$(cd -- "$(dirname "$0")" >/dev/null 2>&1; pwd -P)"
-
-. "$SCRIPT_PATH/_/husky.sh"
-$SCRIPT_PATH/../node_modules/.bin/lint-staged --config $SCRIPT_PATH/../node_modules/@jpapini/lint-staged-config/index.js
+. "$(dirname "$0")/_/husky.sh"
+$(dirname "$0")/../node_modules/.bin/lint-staged --config $(dirname "$0")/../config/lint-staged.config.js
