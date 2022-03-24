@@ -15,7 +15,8 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
-        "index.js"
+        "index.js",
+        "monorepo.js"
     ],
     "scripts": {
         "clean": "rimraf .turbo",
