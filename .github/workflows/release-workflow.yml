@@ -24,8 +24,6 @@ jobs:
                   git_user_signingkey: true
                   git_commit_gpgsign: true
                   git_tag_gpgsign: true
-                  git_committer_name: 'jpapini'
-                  git_committer_email: 'julien.papini@gmail.com'
 
             - name: Setting up PNPM
               uses: pnpm/action-setup@v2
