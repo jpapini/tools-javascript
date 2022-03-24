@@ -1,5 +1,11 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.0.4
+
+### Patch Changes
+
+-   [`0e086e0`](https://github.com/jpapini/tools-javascript/commit/0e086e0e3c7ed5fbdff8dcfd527cd4b177e1ea66) Thanks [@jpapini](https://github.com/jpapini)! - Adding monorepo.js to files field in package.json.
+
 ## 0.0.3
 
 ### Patch Changes
