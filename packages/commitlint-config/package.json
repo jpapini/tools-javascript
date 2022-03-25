@@ -1,8 +1,8 @@
 {
     "name": "@jpapini/commitlint-config",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Shared Commitlint configuration for JavaScript projects.",
-    "homepage": "https://github.com/jpapini/tools-javascript#readme",
+    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/commitlint-config#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
     },
@@ -30,6 +30,11 @@
     },
     "peerDependencies": {
         "@commitlint/cli": ">=16.2.3"
+    },
+    "peerDependenciesMeta": {
+        "@commitlint/cli": {
+            "optional": true
+        }
     },
     "engines": {
         "node": "16"

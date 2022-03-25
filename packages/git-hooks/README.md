@@ -12,7 +12,12 @@ Shared Git hooks for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/git-hooks
+$ pnpm add -D \
+    @jpapini/git-hooks \
+    eslint \
+    npm-package-json-lint \
+    prettier \
+    sort-package-json@1.51.0
 ```
 
 ## Author
