@@ -5,9 +5,5 @@ if [ "$CI" = "true" ] || [ "$NODE_ENV" = "production" ]; then
     exit 0
 fi
 
-RESOLVE="$(dirname "$0")/../resolve.js"
-BIN="$("$RESOLVE" "@commitlint/cli/cli.js")"
-CONFIG="$("$RESOLVE" "@jpapini/commitlint-config")"
-
 . "$(dirname "$0")/_/husky.sh"
-"$BIN" --edit "$1" --config "$CONFIG"
+node "$(dirname "$0")/../scripts/commit-msg.js" "$@"

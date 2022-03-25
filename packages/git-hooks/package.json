@@ -15,13 +15,12 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "files": [
         "hooks",
-        "install.sh",
-        "resolve.js"
+        "scripts"
     ],
     "scripts": {
         "clean": "rimraf .turbo",
         "reset": "rimraf .turbo hooks/_ node_modules",
-        "postinstall": "./install.sh"
+        "postinstall": "node scripts/install.js"
     },
     "dependencies": {
         "@commitlint/cli": "16.2.3",
