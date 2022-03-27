@@ -12,6 +12,7 @@
         "format:prettier": "prettier --write .",
         "format:eslint": "eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --fix .",
         "format:sortpkg": "sort-package-json '**/package.json' '!**/node_modules/**'",
+        "build": "turbo run build",
         "changeset": "changeset",
         "changeset:status": "changeset status",
         "ci:version": "changeset version",

@@ -1,0 +1,44 @@
+{
+    "name": "@jpapini/tools-utils",
+    "version": "0.0.6",
+    "description": "Shared utilities for JavaScript tools.",
+    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/tools-utils#readme",
+    "bugs": {
+        "url": "https://github.com/jpapini/tools-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jpapini/tools-javascript.git",
+        "directory": "packages/tools-utils"
+    },
+    "license": "UNLICENSED",
+    "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "clean": "rimraf .turbo dist *.tsbuildinfo",
+        "reset": "rimraf .turbo dist node_modules *.tsbuildinfo",
+        "build": "tsc"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@jpapini/eslint-config",
+            "@jpapini/eslint-config/typescript"
+        ]
+    },
+    "devDependencies": {
+        "@jpapini/eslint-config": "workspace:*",
+        "@types/node": "16.11.26",
+        "rimraf": "3.0.2",
+        "typescript": "4.6.2"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "publishConfig": {
+        "access": "restricted"
+    }
+}

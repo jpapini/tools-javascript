@@ -3,6 +3,9 @@ node_modules
 package-lock.json
 pnpm-lock.yaml
 
+### Compiled outputs ###
+dist
+
 ### Changesets ###
 .changeset/*.md
 CHANGELOG.md

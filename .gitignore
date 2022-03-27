@@ -16,6 +16,10 @@ node_modules
 
 ### Cache ###
 .turbo
+*.tsbuildinfo
+
+### Compiled outputs ###
+dist
 
 ### Logs ###
 .pnpm-debug.log*
