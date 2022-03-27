@@ -9,15 +9,15 @@ const log = debug('jpapini:tools-utils:pkg-json-resolver');
 
 export function resolvePkgJsonPath(packageName: string, fromPaths?: string | string[]): string {
     try {
-        log('Resolving package.json path of %s package from %O', packageName, fromPaths);
-        const pkgJsonPath = require.resolve(`${packageName}/package.json`, {
-            paths:
-                fromPaths !== undefined
-                    ? Array.isArray(fromPaths)
-                        ? fromPaths
-                        : [fromPaths]
-                    : undefined,
-        });
+        const options = {
+            paths: fromPaths
+                ? Array.isArray(fromPaths)
+                    ? fromPaths
+                    : [fromPaths]
+                : require.main?.paths,
+        };
+        log('Resolving package.json path of %s package with options %O', packageName, options);
+        const pkgJsonPath = require.resolve(`${packageName}/package.json`, options);
         log('Resolved package.json path of %s package: %s', packageName, pkgJsonPath);
         return pkgJsonPath;
     } catch {

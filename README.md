@@ -18,6 +18,7 @@ Shared tools and configurations for JavaScript and TypeScript projects.
 | [@jpapini/npm-package-json-lint-config](https://github.com/jpapini/tools-javascript/tree/main/packages/npm-package-json-lint-config) | Shared npm-package-json-lint configuration for JavaScript projects. |
 | [@jpapini/prettier-config](https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config)                           | Shared Prettier configuration for JavaScript projects.              |
 | [@jpapini/renovate-config](https://github.com/jpapini/tools-javascript/tree/main/packages/renovate-config)                           | Shared Renovate configuration for JavaScript projects.              |
+| [@jpapini/tools-utils](https://github.com/jpapini/tools-javascript/tree/main/packages/tools-utils)                                   | Shared utilities for JavaScript tools.                              |
 
 ## Author
 

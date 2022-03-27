@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 
-const path = require('path');
 const { spawnSync } = require('child_process');
 
 const { packageBinarySync } = require('@jpapini/tools-utils');
 
-const bin = packageBinarySync('lint-staged', 'lint-staged', path.resolve(__dirname));
+const bin = packageBinarySync('lint-staged');
 const config = require.resolve('@jpapini/lint-staged-config');
 
 const result = spawnSync(bin, ['--config', config], { stdio: 'inherit' });

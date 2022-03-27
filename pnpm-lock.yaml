@@ -1728,7 +1728,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001320
-      electron-to-chromium: 1.4.95
+      electron-to-chromium: 1.4.96
       escalade: 3.1.1
       node-releases: 2.0.2
       picocolors: 1.0.0
@@ -2195,8 +2195,8 @@ packages:
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium/1.4.95:
-    resolution: {integrity: sha512-h2VAMV/hPtmAeiDkwA8c5sjS+cWt6GlQL4ERdrOUWu7cRIG5IRk9uwR9f0utP+hPJ9ZZsADTq9HpbuT46eBYAg==}
+  /electron-to-chromium/1.4.96:
+    resolution: {integrity: sha512-DPNjvNGPabv6FcyjzLAN4C0psN/GgD9rSGvMTuv81SeXG/EX3mCz0wiw9N1tUEnfQXYCJi3H8M0oFPRziZh7rw==}
     dev: true
 
   /emittery/0.8.1:

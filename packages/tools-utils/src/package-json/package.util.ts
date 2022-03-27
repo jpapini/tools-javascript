@@ -1,7 +1,7 @@
 import { isFileExecutable, isFileExecutableSync } from '../fs';
 import { isNonEmptyString } from '../types';
 
-import { resolvePkgJsonBinaries } from './pkg-json-fields.util';
+import { resolvePkgJsonBinaries } from './pkg-json-binaries.util';
 import { resolvePkgJsonFile, resolvePkgJsonFileSync } from './pkg-json-resolver.util';
 
 export async function packageBinaries(
@@ -24,7 +24,7 @@ export function packageBinariesSync(
 
 export async function packageBinary(
     packageName: string,
-    binaryName: string,
+    binaryName: string = packageName,
     fromPaths?: string | string[],
 ): Promise<string> {
     const pkgJson = await resolvePkgJsonFile(packageName, fromPaths);
@@ -42,7 +42,7 @@ export async function packageBinary(
 
 export function packageBinarySync(
     packageName: string,
-    binaryName: string,
+    binaryName: string = packageName,
     fromPaths?: string | string[],
 ): string {
     const pkgJson = resolvePkgJsonFileSync(packageName, fromPaths);
