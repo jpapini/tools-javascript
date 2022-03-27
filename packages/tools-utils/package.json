@@ -29,8 +29,12 @@
             "@jpapini/eslint-config/typescript"
         ]
     },
+    "dependencies": {
+        "debug": "4.3.4"
+    },
     "devDependencies": {
         "@jpapini/eslint-config": "workspace:*",
+        "@types/debug": "4.1.7",
         "@types/node": "16.11.26",
         "rimraf": "3.0.2",
         "typescript": "4.6.2"

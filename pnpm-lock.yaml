@@ -144,11 +144,16 @@ importers:
   packages/tools-utils:
     specifiers:
       '@jpapini/eslint-config': workspace:*
+      '@types/debug': 4.1.7
       '@types/node': 16.11.26
+      debug: 4.3.4
       rimraf: 3.0.2
       typescript: 4.6.2
+    dependencies:
+      debug: 4.3.4
     devDependencies:
       '@jpapini/eslint-config': link:../eslint-config
+      '@types/debug': 4.1.7
       '@types/node': 16.11.26
       rimraf: 3.0.2
       typescript: 4.6.2
@@ -1209,6 +1214,12 @@ packages:
       '@babel/types': 7.17.0
     dev: true
 
+  /@types/debug/4.1.7:
+    resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
+    dependencies:
+      '@types/ms': 0.7.31
+    dev: true
+
   /@types/glob/7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
@@ -1258,6 +1269,10 @@ packages:
 
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
+
+  /@types/ms/0.7.31:
+    resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+    dev: true
 
   /@types/node/12.20.47:
     resolution: {integrity: sha512-BzcaRsnFuznzOItW1WpQrDHM7plAa7GIDMZ6b5pnMbkqEtM/6WCOhvZar39oeMQP79gwvFUWjjptE7/KGcNqFg==}
