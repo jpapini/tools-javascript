@@ -26,6 +26,7 @@
         "@commitlint/cli": "16.2.3",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/lint-staged-config": "workspace:*",
+        "@jpapini/tools-utils": "workspace:*",
         "husky": "7.0.4",
         "lint-staged": "12.3.7"
     },

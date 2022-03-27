@@ -3,10 +3,9 @@
 const path = require('path');
 const { spawnSync } = require('child_process');
 
-const bin = path.resolve(
-    path.dirname(require.resolve('lint-staged/package.json')),
-    'bin/lint-staged.js',
-);
+const { packageBinarySync } = require('@jpapini/tools-utils');
+
+const bin = packageBinarySync('lint-staged', 'lint-staged', path.resolve(__dirname));
 const config = require.resolve('@jpapini/lint-staged-config');
 
 const result = spawnSync(bin, ['--config', config], { stdio: 'inherit' });
@@ -16,5 +15,5 @@ if (result.error) {
     process.exit(1);
 }
 
-if (result.status === 0) process.exit(0);
-process.exit(1);
+if (result.status === null) process.exit(1);
+process.exit(result.status);
