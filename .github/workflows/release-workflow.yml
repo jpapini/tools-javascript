@@ -40,6 +40,15 @@ jobs:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               run: pnpm install --frozen-lockfile
 
+            - name: Retrieving node_modules cache
+              uses: actions/cache@v3
+              env:
+                  cache-name: cache-node-modules
+              with:
+                  path: node_modules/.cache
+                  key: ${{ runner.os }}-${{ env.cache-name }}-${{ github.sha }}
+                  restore-keys: ${{ runner.os }}-${{ env.cache-name }}-
+
             - name: Creating release pull request
               uses: changesets/action@v1
               env:
