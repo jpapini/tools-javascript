@@ -14,6 +14,7 @@
     "license": "UNLICENSED",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "files": [
+        "tsconfig.nest.json",
         "tsconfig.node.json"
     ],
     "scripts": {

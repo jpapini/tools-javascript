@@ -6,6 +6,8 @@ Shared TypeScript configuration for JavaScript projects.
 
 -   [How to install](#how-to-install)
 -   [How to use](#how-to-use)
+    -   [Usage with Node.js 16](#usage-with-nodejs-16)
+    -   [Usage with Nest.js](#usage-with-nestjs)
 -   [Author](#author)
 
 ## How to install
@@ -18,11 +20,23 @@ $ <yarn|npm|pnpm> add -D @jpapini/typescript-config typescript
 
 ## How to use
 
+### Usage with Node.js 16
+
 Create a `tsconfig.json` file with the following content:
 
 ```json
 {
     "extends": "@jpapini/typescript-config/tsconfig.node.json"
+}
+```
+
+### Usage with Nest.js
+
+Create a `tsconfig.json` file with the following content:
+
+```json
+{
+    "extends": "@jpapini/typescript-config/tsconfig.nest.json"
 }
 ```
 

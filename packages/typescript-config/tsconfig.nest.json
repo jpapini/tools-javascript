@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node.js 16",
+
+    "extends": "./tsconfig.node.json",
+    "compilerOptions": {
+        // Enable experimental support for TC39 stage 2 draft decorators.
+        "experimentalDecorators": true,
+        // Emit design-type metadata for decorated declarations in source files.
+        "emitDecoratorMetadata": true,
+
+        // Check for class properties that are declared but not set in the constructor.
+        "strictPropertyInitialization": false
+    }
+}
