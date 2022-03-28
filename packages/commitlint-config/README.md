@@ -12,7 +12,7 @@ Shared Commitlint configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/commitlint-config @commitlint/cli
+$ <yarn|npm|pnpm> add -D @jpapini/commitlint-config @commitlint/cli
 ```
 
 ## Author

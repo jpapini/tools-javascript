@@ -2,9 +2,9 @@
 
 const { spawnSync } = require('child_process');
 
-const { packageBinarySync } = require('@jpapini/tools-utils');
+const { resolveBin } = require('@jpapini/tools-utils');
 
-const bin = packageBinarySync('lint-staged');
+const bin = resolveBin('lint-staged', 'lint-staged');
 const config = require.resolve('@jpapini/lint-staged-config');
 
 const result = spawnSync(bin, ['--config', config], { stdio: 'inherit' });

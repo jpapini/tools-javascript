@@ -1,45 +1,18 @@
 import { readFileSync } from 'fs';
-import { readFile } from 'fs/promises';
 
 import debug from 'debug';
-import type { PathLike } from 'fs';
+import memoize from 'memoizee';
 
-const log = debug('jpapini:tools-utils:read-json');
+const log = debug('jpapini:tools-utils:readJson');
 
-export async function readJson<T = Record<string, unknown>>(filePath: PathLike): Promise<T> {
-    let jsonRaw: string;
+function _readJson<T = Record<string, unknown>>(jsonPath: string): T | undefined {
     try {
-        log('Reading asynchronously JSON file: %s', filePath);
-        jsonRaw = await readFile(filePath, { encoding: 'utf-8' });
-    } catch {
-        log('Unable to read asynchronously JSON file: %s', filePath);
-        throw new Error(`Unable to read the JSON file "${filePath}".`);
-    }
-
-    try {
-        log('Parsing asynchronously JSON file %s', filePath);
+        log('Reading JSON file: %s', jsonPath);
+        const jsonRaw = readFileSync(jsonPath, { encoding: 'utf-8' });
         return JSON.parse(jsonRaw);
-    } catch {
-        log('Unable to parse asynchronously JSON file: %s', filePath);
-        throw new Error(`Unable to parse the JSON file "${filePath}".`);
+    } catch (err) {
+        log('Unable to parse JSON file "%s": %s', jsonPath, err);
+        return undefined;
     }
 }
-
-export function readJsonSync<T = Record<string, unknown>>(filePath: PathLike): T {
-    let jsonRaw: string;
-    try {
-        log('Reading synchronously JSON file %s', filePath);
-        jsonRaw = readFileSync(filePath, { encoding: 'utf-8' });
-    } catch {
-        log('Unable to read synchronously JSON file: %s', filePath);
-        throw new Error(`Unable to read the JSON file "${filePath}".`);
-    }
-
-    try {
-        log('Parsing synchronously JSON file %s', filePath);
-        return JSON.parse(jsonRaw);
-    } catch {
-        log('Unable to parse synchronously JSON file: %s', filePath);
-        throw new Error(`Unable to parse the JSON file "${filePath}".`);
-    }
-}
+export const readJson = memoize(_readJson, { primitive: true });

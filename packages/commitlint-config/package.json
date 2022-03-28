@@ -26,6 +26,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "16.2.3",
+        "@types/node": "16.11.26",
         "rimraf": "3.0.2"
     },
     "peerDependencies": {

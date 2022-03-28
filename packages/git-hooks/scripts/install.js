@@ -4,7 +4,7 @@ const husky = require('husky');
 const path = require('path');
 
 if (process.env.CI !== undefined || process.env.NODE_ENV === 'production') {
-    console.log('CI or production environment, skipping Husky installation');
+    console.log('CI or production environment, skipping Husky installation.');
     process.exit(0);
 }
 

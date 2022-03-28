@@ -12,7 +12,7 @@ Shared Git hooks for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D \
+$ <yarn|npm|pnpm> add -D \
     @jpapini/git-hooks \
     eslint \
     npm-package-json-lint \

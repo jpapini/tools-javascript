@@ -16,12 +16,13 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
-        "dist"
+        "dist",
+        "src"
     ],
     "scripts": {
         "clean": "rimraf .turbo dist *.tsbuildinfo",
         "reset": "rimraf .turbo dist node_modules *.tsbuildinfo",
-        "build": "tsc"
+        "build": "ttsc"
     },
     "eslintConfig": {
         "extends": [
@@ -30,14 +31,19 @@
         ]
     },
     "dependencies": {
-        "debug": "4.3.4"
+        "debug": "4.3.4",
+        "memoizee": "0.4.15"
     },
     "devDependencies": {
         "@jpapini/eslint-config": "workspace:*",
         "@types/debug": "4.1.7",
+        "@types/memoizee": "0.4.7",
         "@types/node": "16.11.26",
         "rimraf": "3.0.2",
-        "typescript": "4.6.2"
+        "ts-node": "10.7.0",
+        "ttypescript": "1.5.13",
+        "typescript": "4.6.2",
+        "typescript-transform-paths": "3.3.1"
     },
     "engines": {
         "node": "16"

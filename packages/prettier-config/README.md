@@ -13,7 +13,7 @@ Shared Prettier configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/prettier-config prettier
+$ <yarn|npm|pnpm> add -D @jpapini/prettier-config prettier
 ```
 
 Add the following fields to your `package.json`:

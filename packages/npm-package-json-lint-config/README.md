@@ -14,7 +14,7 @@ Shared npm-package-json-lint configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/npm-package-json-lint-config npm-package-json-lint
+$ <yarn|npm|pnpm> add -D @jpapini/npm-package-json-lint-config npm-package-json-lint
 ```
 
 Add the following fields to your `package.json`:

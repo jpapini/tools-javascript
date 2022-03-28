@@ -15,7 +15,7 @@ Shared ESLint configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/eslint-config eslint prettier
+$ <yarn|npm|pnpm> add -D @jpapini/eslint-config eslint prettier
 ```
 
 Add the following fields to your `package.json`:
@@ -39,7 +39,7 @@ Don't forget to create a `.eslintignore` file to ignore unnecessary files.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D typescript
+$ <yarn|npm|pnpm> add -D typescript
 ```
 
 Add the following fields to your `package.json`:
@@ -57,7 +57,7 @@ Add the following fields to your `package.json`:
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D jest
+$ <yarn|npm|pnpm> add -D jest
 ```
 
 Add the following fields to your `package.json`:

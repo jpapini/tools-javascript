@@ -2,9 +2,9 @@
 
 const { spawnSync } = require('child_process');
 
-const { packageBinarySync } = require('@jpapini/tools-utils');
+const { resolveBin } = require('@jpapini/tools-utils');
 
-const bin = packageBinarySync('@commitlint/cli', 'commitlint');
+const bin = resolveBin('commitlint', '@commitlint/cli');
 const config = require.resolve('@jpapini/commitlint-config');
 
 const result = spawnSync(bin, ['--edit', process.argv[2], '--config', config], {

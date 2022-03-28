@@ -12,7 +12,7 @@ Shared lint-staged configuration for JavaScript projects.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D \
+$ <yarn|npm|pnpm> add -D \
     @jpapini/lint-staged-config \
     lint-staged \
     eslint \

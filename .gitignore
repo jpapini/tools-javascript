@@ -25,3 +25,6 @@ dist
 .pnpm-debug.log*
 npm-debug.log*
 *.log
+
+### Temporary files ###
+old

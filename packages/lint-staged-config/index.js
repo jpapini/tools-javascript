@@ -1,17 +1,31 @@
+const { hasAnyDep } = require('@jpapini/tools-utils');
+
+const hasPrettier = hasAnyDep('prettier');
+const hasEslint = hasAnyDep('eslint');
+const hasSortPackageJson = hasAnyDep('sort-package-json');
+const hasNpmPkgJsonLint = hasAnyDep('npm-package-json-lint');
+
 module.exports = {
     '**/*.{js,ts}': (filenames) => {
         const files = filenames.join(' ');
         return [
-            `prettier --write ${files}`,
-            `eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --fix ${files}`,
+            ...(hasPrettier ? [`prettier --write ${files}`] : []),
+            ...(hasEslint
+                ? [
+                      `eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --fix ${files}`,
+                  ]
+                : []),
         ];
     },
     '**/*.{json,yml,yaml,md,gql}': (filenames) => {
         const files = filenames.join(' ');
-        return `prettier --write ${files}`;
+        return [...(hasPrettier ? [`prettier --write ${files}`] : [])];
     },
     '**/package.json': (filenames) => {
         const files = filenames.join(' ');
-        return [`sort-package-json ${files}`, `npmPkgJsonLint ${files}`];
+        return [
+            ...(hasSortPackageJson ? [`sort-package-json ${files}`] : []),
+            ...(hasNpmPkgJsonLint ? [`npmPkgJsonLint ${files}`] : []),
+        ];
     },
 };

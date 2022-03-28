@@ -12,7 +12,7 @@ Shared utilities for JavaScript tools.
 Run the following command to install the required dependencies:
 
 ```shell
-$ pnpm add -D @jpapini/tools-utils
+$ <yarn|npm|pnpm> add -D @jpapini/tools-utils
 ```
 
 ## Author
