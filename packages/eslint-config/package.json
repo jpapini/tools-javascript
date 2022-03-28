@@ -44,9 +44,9 @@
     },
     "peerDependencies": {
         "eslint": ">=8.11.0",
-        "jest": ">=27.5.1",
-        "prettier": ">=2.6.0",
-        "typescript": ">=4.6.2"
+        "jest": "*",
+        "prettier": "*",
+        "typescript": "*"
     },
     "peerDependenciesMeta": {
         "jest": {
