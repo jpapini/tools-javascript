@@ -1,0 +1,46 @@
+{
+    "name": "@jpapini/jest-config",
+    "version": "0.0.6",
+    "description": "Shared Jest configuration for JavaScript projects.",
+    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/jest-config#readme",
+    "bugs": {
+        "url": "https://github.com/jpapini/tools-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jpapini/tools-javascript.git",
+        "directory": "packages/jest-config"
+    },
+    "license": "UNLICENSED",
+    "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "clean": "rimraf .turbo",
+        "reset": "rimraf .turbo node_modules"
+    },
+    "devDependencies": {
+        "@types/node": "16.11.26",
+        "jest": "27.5.1",
+        "rimraf": "3.0.2",
+        "ts-jest": "27.1.4",
+        "typescript": "4.6.3"
+    },
+    "peerDependencies": {
+        "jest": ">=27.5.1",
+        "ts-jest": ">=27.1.4"
+    },
+    "peerDependenciesMeta": {
+        "ts-jest": {
+            "optional": true
+        }
+    },
+    "engines": {
+        "node": "16"
+    },
+    "publishConfig": {
+        "access": "restricted"
+    }
+}
