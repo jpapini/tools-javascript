@@ -167,6 +167,7 @@ importers:
   packages/tools-utils:
     specifiers:
       '@jpapini/eslint-config': workspace:*
+      '@jpapini/typescript-config': workspace:*
       '@types/debug': 4.1.7
       '@types/memoizee': 0.4.7
       '@types/node': 16.11.26
@@ -182,6 +183,7 @@ importers:
       memoizee: 0.4.15
     devDependencies:
       '@jpapini/eslint-config': link:../eslint-config
+      '@jpapini/typescript-config': link:../typescript-config
       '@types/debug': 4.1.7
       '@types/memoizee': 0.4.7
       '@types/node': 16.11.26
@@ -190,6 +192,14 @@ importers:
       ttypescript: 1.5.13_ts-node@10.7.0+typescript@4.6.2
       typescript: 4.6.2
       typescript-transform-paths: 3.3.1_typescript@4.6.2
+
+  packages/typescript-config:
+    specifiers:
+      rimraf: 3.0.2
+      typescript: 4.6.3
+    devDependencies:
+      rimraf: 3.0.2
+      typescript: 4.6.3
 
 packages:
 

@@ -20,6 +20,7 @@ Shared tools and configurations for JavaScript and TypeScript projects.
 | [@jpapini/prettier-config](https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config)                           | Shared Prettier configuration for JavaScript projects.              |
 | [@jpapini/renovate-config](https://github.com/jpapini/tools-javascript/tree/main/packages/renovate-config)                           | Shared Renovate configuration for JavaScript projects.              |
 | [@jpapini/tools-utils](https://github.com/jpapini/tools-javascript/tree/main/packages/tools-utils)                                   | Shared utilities for JavaScript tools.                              |
+| [@jpapini/typescript-config](https://github.com/jpapini/tools-javascript/tree/main/packages/typescript-config)                       | Shared TypeScript configuration for JavaScript projects.            |
 
 ## Author
 

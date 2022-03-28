@@ -1,0 +1,36 @@
+{
+    "name": "@jpapini/typescript-config",
+    "version": "0.0.6",
+    "description": "Shared TypeScript configuration for JavaScript projects.",
+    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/typescript-config#readme",
+    "bugs": {
+        "url": "https://github.com/jpapini/tools-javascript/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jpapini/tools-javascript.git",
+        "directory": "packages/typescript-config"
+    },
+    "license": "UNLICENSED",
+    "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "files": [
+        "tsconfig.node.json"
+    ],
+    "scripts": {
+        "clean": "rimraf .turbo",
+        "reset": "rimraf .turbo node_modules"
+    },
+    "devDependencies": {
+        "rimraf": "3.0.2",
+        "typescript": "4.6.3"
+    },
+    "peerDependencies": {
+        "typescript": ">=4.6.3"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "publishConfig": {
+        "access": "restricted"
+    }
+}

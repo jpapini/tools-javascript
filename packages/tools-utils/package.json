@@ -36,6 +36,7 @@
     },
     "devDependencies": {
         "@jpapini/eslint-config": "workspace:*",
+        "@jpapini/typescript-config": "workspace:*",
         "@types/debug": "4.1.7",
         "@types/memoizee": "0.4.7",
         "@types/node": "16.11.26",
