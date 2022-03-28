@@ -30,7 +30,7 @@
     },
     "peerDependencies": {
         "jest": ">=27.5.1",
-        "ts-jest": ">=27.1.4"
+        "ts-jest": "*"
     },
     "peerDependenciesMeta": {
         "ts-jest": {
