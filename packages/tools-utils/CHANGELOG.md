@@ -1,5 +1,11 @@
 # @jpapini/tools-utils
 
+## 0.0.8
+
+### Patch Changes
+
+-   [`0cf035c`](https://github.com/jpapini/tools-javascript/commit/0cf035c3d6153942ccdce9685a420a67e9a88bcd) Thanks [@jpapini](https://github.com/jpapini)! - Better peerDependencies.
+
 ## 0.0.7
 
 ### Patch Changes
