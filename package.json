@@ -30,13 +30,13 @@
         "@jpapini/git-hooks": "workspace:*",
         "@jpapini/npm-package-json-lint-config": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
-        "eslint": "8.12.0",
+        "eslint": "8.13.0",
         "npm-package-json-lint": "6.3.0",
         "npm-run-all": "4.1.5",
-        "prettier": "2.6.1",
+        "prettier": "2.6.2",
         "rimraf": "3.0.2",
         "sort-package-json": "1.51.0",
-        "turbo": "1.1.10"
+        "turbo": "1.2.1"
     },
     "engines": {
         "node": "16",
