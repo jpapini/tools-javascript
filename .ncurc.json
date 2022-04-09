@@ -1,0 +1,6 @@
+{
+    "deep": true,
+    "interactive": true,
+    "upgrade": true,
+    "reject": ["@types/node", "sort-package-json"]
+}
