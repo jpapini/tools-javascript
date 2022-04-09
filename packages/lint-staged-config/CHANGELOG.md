@@ -1,5 +1,11 @@
 # @jpapini/lint-staged-config
 
+## 0.0.9
+
+### Patch Changes
+
+-   [`4a2f7d8`](https://github.com/jpapini/tools-javascript/commit/4a2f7d8539dbd0f1d95c10ac84cb1d90bac7e38b) Thanks [@jpapini](https://github.com/jpapini)! - Using --ignore-unknown args for Prettier.
+
 ## 0.0.8
 
 ### Patch Changes

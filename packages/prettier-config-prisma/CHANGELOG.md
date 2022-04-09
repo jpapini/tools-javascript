@@ -1,5 +1,14 @@
 # @jpapini/prettier-config-prisma
 
+## 0.0.3
+
+### Patch Changes
+
+-   [`4a2f7d8`](https://github.com/jpapini/tools-javascript/commit/4a2f7d8539dbd0f1d95c10ac84cb1d90bac7e38b) Thanks [@jpapini](https://github.com/jpapini)! - Using --ignore-unknown args for Prettier.
+
+-   Updated dependencies [[`4a2f7d8`](https://github.com/jpapini/tools-javascript/commit/4a2f7d8539dbd0f1d95c10ac84cb1d90bac7e38b)]:
+    -   @jpapini/prettier-config@0.0.9
+
 ## 0.0.2
 
 ### Patch Changes

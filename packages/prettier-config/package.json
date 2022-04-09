@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/prettier-config",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "Shared Prettier configuration for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config#readme",
     "bugs": {
