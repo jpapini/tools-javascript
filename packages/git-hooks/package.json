@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/git-hooks",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Shared Git hooks for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/git-hooks#readme",
     "bugs": {

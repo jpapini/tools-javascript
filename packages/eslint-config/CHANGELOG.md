@@ -1,5 +1,13 @@
 # @jpapini/eslint-config
 
+## 0.0.8
+
+### Patch Changes
+
+-   [`bfeb3d2`](https://github.com/jpapini/tools-javascript/commit/bfeb3d24edba6792cbb6784c6c88c696452a69b6) Thanks [@jpapini](https://github.com/jpapini)! - Making Prettier and ESLint optional peerDependencies.
+
+*   [`2ac44b1`](https://github.com/jpapini/tools-javascript/commit/2ac44b133af9a83ab25e6e3b03262646dcde5570) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
 ## 0.0.7
 
 ### Patch Changes
