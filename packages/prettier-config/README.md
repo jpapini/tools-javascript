@@ -21,8 +21,8 @@ Add the following fields to your `package.json`:
 ```json
 {
     "scripts": {
-        "lint:prettier": "prettier --check .",
-        "format:prettier": "prettier --write ."
+        "lint:prettier": "prettier --check -u '**/*'",
+        "format:prettier": "prettier --write -u '**/*'"
     },
     "prettier": "@jpapini/prettier-config"
 }

@@ -9,7 +9,7 @@ module.exports = {
     '**/*.{js,ts}': (filenames) => {
         const files = filenames.join(' ');
         return [
-            ...(hasPrettier ? [`prettier --write ${files}`] : []),
+            ...(hasPrettier ? [`prettier --write -u ${files}`] : []),
             ...(hasEslint
                 ? [
                       `eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --fix ${files}`,
@@ -19,7 +19,7 @@ module.exports = {
     },
     '**/*.{json,yml,yaml,md,gql}': (filenames) => {
         const files = filenames.join(' ');
-        return [...(hasPrettier ? [`prettier --write ${files}`] : [])];
+        return [...(hasPrettier ? [`prettier --write -u ${files}`] : [])];
     },
     '**/package.json': (filenames) => {
         const files = filenames.join(' ');
