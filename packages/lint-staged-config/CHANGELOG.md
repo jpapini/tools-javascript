@@ -1,5 +1,12 @@
 # @jpapini/lint-staged-config
 
+## 0.0.10
+
+### Patch Changes
+
+-   Updated dependencies [[`9dcf863`](https://github.com/jpapini/tools-javascript/commit/9dcf863b4f3eac95a57cdcf8f84b9ff42323ef76)]:
+    -   @jpapini/tools-utils@0.0.9
+
 ## 0.0.9
 
 ### Patch Changes
