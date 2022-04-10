@@ -16,7 +16,6 @@ node_modules
 
 ### Cache ###
 .turbo
-*.tsbuildinfo
 
 ### Compiled outputs ###
 dist

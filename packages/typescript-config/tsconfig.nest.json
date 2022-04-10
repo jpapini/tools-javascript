@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Node.js 16",
+    "display": "Nest.js",
 
     "extends": "./tsconfig.node.json",
     "compilerOptions": {

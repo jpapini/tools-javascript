@@ -20,8 +20,8 @@
         "src"
     ],
     "scripts": {
-        "clean": "rimraf .turbo dist *.tsbuildinfo",
-        "reset": "rimraf .turbo dist node_modules *.tsbuildinfo",
+        "clean": "rimraf .turbo dist",
+        "reset": "rimraf .turbo dist node_modules",
         "build": "ttsc"
     },
     "eslintConfig": {

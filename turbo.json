@@ -10,7 +10,7 @@
         },
         "build": {
             "dependsOn": ["^build"],
-            "outputs": ["dist/**", "*.tsbuildinfo"]
+            "outputs": ["dist/**"]
         }
     }
 }
