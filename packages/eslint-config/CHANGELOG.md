@@ -1,5 +1,13 @@
 # @jpapini/eslint-config
 
+## 0.0.9
+
+### Patch Changes
+
+-   [`b03b756`](https://github.com/jpapini/tools-javascript/commit/b03b756a3ade567deea9705b39105109b80341e9) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+*   [`0a84416`](https://github.com/jpapini/tools-javascript/commit/0a844166a907e3ad43db36cb3fa73996322b8118) Thanks [@jpapini](https://github.com/jpapini)! - Adding @endurance scope.
+
 ## 0.0.8
 
 ### Patch Changes
