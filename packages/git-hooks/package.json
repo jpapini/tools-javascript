@@ -28,10 +28,10 @@
         "@jpapini/lint-staged-config": "workspace:*",
         "@jpapini/tools-utils": "workspace:*",
         "husky": "7.0.4",
-        "lint-staged": "12.3.7"
+        "lint-staged": "12.3.8"
     },
     "devDependencies": {
-        "@types/node": "16.11.26",
+        "@types/node": "16.11.27",
         "rimraf": "3.0.2"
     },
     "engines": {

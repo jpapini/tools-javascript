@@ -22,7 +22,7 @@
         "reset": "rimraf .turbo node_modules"
     },
     "devDependencies": {
-        "@types/node": "16.11.26",
+        "@types/node": "16.11.27",
         "prettier": "2.6.2",
         "rimraf": "3.0.2"
     },

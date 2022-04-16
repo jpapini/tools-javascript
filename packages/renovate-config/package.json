@@ -23,7 +23,7 @@
         "reset": "rimraf .turbo node_modules"
     },
     "devDependencies": {
-        "@types/node": "16.11.26",
+        "@types/node": "16.11.27",
         "rimraf": "3.0.2"
     },
     "engines": {
