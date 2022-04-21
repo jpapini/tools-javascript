@@ -1,6 +1,7 @@
 {
-    "$schema": "https://unpkg.com/@changesets/config@1.7.0/schema.json",
+    "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
     "baseBranch": "main",
+    "fixed": [["@jpapini/*"]],
     "changelog": ["@changesets/changelog-github", { "repo": "jpapini/tools-javascript" }],
     "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
         "onlyUpdatePeerDependentsWhenOutOfRange": true,
