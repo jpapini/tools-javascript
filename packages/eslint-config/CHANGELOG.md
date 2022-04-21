@@ -1,5 +1,15 @@
 # @jpapini/eslint-config
 
+## 0.0.13
+
+### Patch Changes
+
+-   [`a4a0f7b`](https://github.com/jpapini/tools-javascript/commit/a4a0f7bdf7b009a8c8c1a1659a9160b76dd2fc69) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+*   [`26b3de4`](https://github.com/jpapini/tools-javascript/commit/26b3de4c9930566b5fbcd00d0a6de22374724242) Thanks [@jpapini](https://github.com/jpapini)! - Bump all package versions together.
+
+-   [`3bcd9cf`](https://github.com/jpapini/tools-javascript/commit/3bcd9cf3f3ff4d34a443554b3c85d1fc42603dc5) Thanks [@jpapini](https://github.com/jpapini)! - Adding @dare-dating scope.
+
 ## 0.0.9
 
 ### Patch Changes

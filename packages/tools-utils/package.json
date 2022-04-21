@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/tools-utils",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "description": "Shared utilities for JavaScript tools.",
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/tools-utils#readme",
     "bugs": {
