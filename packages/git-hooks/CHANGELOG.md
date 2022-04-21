@@ -1,5 +1,18 @@
 # @jpapini/git-hooks
 
+## 0.0.13
+
+### Patch Changes
+
+-   [`a4a0f7b`](https://github.com/jpapini/tools-javascript/commit/a4a0f7bdf7b009a8c8c1a1659a9160b76dd2fc69) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+*   [`26b3de4`](https://github.com/jpapini/tools-javascript/commit/26b3de4c9930566b5fbcd00d0a6de22374724242) Thanks [@jpapini](https://github.com/jpapini)! - Bump all package versions together.
+
+*   Updated dependencies [[`a4a0f7b`](https://github.com/jpapini/tools-javascript/commit/a4a0f7bdf7b009a8c8c1a1659a9160b76dd2fc69), [`26b3de4`](https://github.com/jpapini/tools-javascript/commit/26b3de4c9930566b5fbcd00d0a6de22374724242)]:
+    -   @jpapini/lint-staged-config@0.0.13
+    -   @jpapini/commitlint-config@0.0.13
+    -   @jpapini/tools-utils@0.0.13
+
 ## 0.0.11
 
 ### Patch Changes

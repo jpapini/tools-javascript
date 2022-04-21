@@ -1,5 +1,13 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.0.13
+
+### Patch Changes
+
+-   [`26b3de4`](https://github.com/jpapini/tools-javascript/commit/26b3de4c9930566b5fbcd00d0a6de22374724242) Thanks [@jpapini](https://github.com/jpapini)! - Bump all package versions together.
+
+*   [`3bcd9cf`](https://github.com/jpapini/tools-javascript/commit/3bcd9cf3f3ff4d34a443554b3c85d1fc42603dc5) Thanks [@jpapini](https://github.com/jpapini)! - Adding @dare-dating scope.
+
 ## 0.0.7
 
 ### Patch Changes

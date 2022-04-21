@@ -1,5 +1,11 @@
 # @jpapini/typescript-config
 
+## 0.0.13
+
+### Patch Changes
+
+-   [`26b3de4`](https://github.com/jpapini/tools-javascript/commit/26b3de4c9930566b5fbcd00d0a6de22374724242) Thanks [@jpapini](https://github.com/jpapini)! - Bump all package versions together.
+
 ## 0.0.8
 
 ### Patch Changes
