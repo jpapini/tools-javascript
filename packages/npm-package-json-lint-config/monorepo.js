@@ -66,7 +66,7 @@ module.exports = {
         // Error if the value in license is not equal to one of the values in the array of valid values.
         'valid-values-license': ['error', ['UNLICENSED']],
         // Error if the package name does not have a scope set to one of the values in the array of valid values.
-        'valid-values-name-scope': ['error', ['@jpapini', '@endurance']],
+        'valid-values-name-scope': ['error', ['@jpapini', '@endurance', '@dare-dating']],
         // Error if the value in private is not equal to one of the values in the array of valid values.
         'valid-values-private': ['error', [true]],
 
