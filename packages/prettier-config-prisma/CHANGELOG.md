@@ -1,5 +1,14 @@
 # @jpapini/prettier-config-prisma
 
+## 0.0.14
+
+### Patch Changes
+
+-   [`5005399`](https://github.com/jpapini/tools-javascript/commit/5005399a883932bc9f2f0e3b90c7a2af513c89ae) Thanks [@jpapini](https://github.com/jpapini)! - Making packages public.
+
+-   Updated dependencies [[`5005399`](https://github.com/jpapini/tools-javascript/commit/5005399a883932bc9f2f0e3b90c7a2af513c89ae)]:
+    -   @jpapini/prettier-config@0.0.14
+
 ## 0.0.13
 
 ### Patch Changes

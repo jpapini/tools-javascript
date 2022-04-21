@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/commitlint-config",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "Shared Commitlint configuration for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/commitlint-config#readme",
     "bugs": {
