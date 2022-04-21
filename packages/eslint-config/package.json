@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/eslint-config",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "description": "Shared ESLint configuration for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/eslint-config#readme",
     "bugs": {

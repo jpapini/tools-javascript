@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/lint-staged-config",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "description": "Shared lint-staged configuration for JavaScript projects.",
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/lint-staged-config#readme",
     "bugs": {
