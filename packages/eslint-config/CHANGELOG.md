@@ -1,5 +1,11 @@
 # @jpapini/eslint-config
 
+## 0.0.15
+
+### Patch Changes
+
+-   [`b4ae3b1`](https://github.com/jpapini/tools-javascript/commit/b4ae3b1e9ef2a8fe567a7313574bdb20da44f823) Thanks [@jpapini](https://github.com/jpapini)! - Fixing scopes.
+
 ## 0.0.14
 
 ### Patch Changes
