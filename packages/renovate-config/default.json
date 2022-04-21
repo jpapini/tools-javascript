@@ -16,8 +16,5 @@
             "matchPackageNames": ["sort-package-json"],
             "allowedVersions": "<=1.51.0"
         }
-    ],
-    "encrypted": {
-        "npmToken": "wcFMA/xDdHCJBTolAQ/+JFW5UX+/YnoAT0BdAj0Bd6eaKvUJF6i4Vmfj6TATZDWYKuSNZqKpmTGsgSy1CTQtgZWKsc7qtlf0d2pfwpEhZj0HC9SsLBkVP0iy/8uhbHb0Ji1MdSGECVgRH4xtAvxCAOtZ603hGy/uXvoot6lsx6z+nPXxJZHFgznHL+7+6vhv56Lh90sWPIvCXSsV5PxJSi7FTn1p2KoajKUpD5pWHb6Nordj/ag4Lw8SHZmVQUPAmf+9IVoQUBN8VtBQkGb9B5OTHMbfUkPYT5KLWq26Guk6tSlZPu03AyTYXFiLfAKsuLenNuglHgi7bFvqJnkE2Xnjp1hZEWOHVb4zuVbVH16tMBzk04b9SjLCYQnBFQstszgR7YooIXcwH+/PClnAmsFNwIdZ7hj7t1IuaVdAN6ThqlsoHG/QIqSLTDOXXOaxqoZWp2Rf+XRL1oYWe9pLDofJHGtn8f4IzGeUy3eU1c/7oXAQKuagMrI5DQNKKG+GJUw6T/YlZ2u7BkC7MYnJP5S4P/G8T7PygI9hrJsVyHHBFOP0KOxn9QV3UA3CMvXbw/52c8zFexWm5Tg9OZkE18EAtukFk3X3zsRhpsL48QKeBThZ3yOfftrbs2pEwvwfR+uOujpg75jJWEcv/yfgUStVQgEn9y98NO4HYvBwa2u6Gs1Wqa3it0uxPM5+Jx/SdgHCxrPzd1alr+uEyJ/LaqeRmgHl7voDHiHZLQKKAqMZTbIwaTZTssGIYYdaX6YDZOUjppXYW1RlsQoB65Vsn1PXiCheQqE7QZq4x7T4jzwSpzrEshHKf24VAqG1QpYPMgBm/hdt/XwGBA6xYGzFps44Euk7W2E"
-    }
+    ]
 }

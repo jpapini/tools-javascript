@@ -11,7 +11,7 @@
         "url": "git+https://github.com/jpapini/tools-javascript.git",
         "directory": "packages/git-hooks"
     },
-    "license": "UNLICENSED",
+    "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "files": [
         "hooks",
@@ -38,6 +38,6 @@
         "node": "16"
     },
     "publishConfig": {
-        "access": "restricted"
+        "access": "public"
     }
 }
