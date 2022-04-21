@@ -24,7 +24,7 @@ module.exports = {
                     // Packages.
                     ['^@nestjs', '^@?\\w'],
                     // Internal packages.
-                    ['^(@jpapini|@endurance@dare-dating)(/.*|$)'],
+                    ['^(@jpapini|@endurance|@dare-dating)(/.*|$)'],
                     // Internal modules.
                     ['^~/[^/]+(/.*|$)'],
                     // Parent imports. Put `..` last.
