@@ -7,11 +7,23 @@
         ":prConcurrentLimitNone",
         ":prHourlyLimitNone",
         ":semanticCommitScope(deps)",
-        ":semanticPrefixFixDepsChoreOthers",
         "group:allNonMajor",
         "workarounds:typesNodeVersioning"
     ],
     "packageRules": [
+        {
+            "matchPackagePatterns": ["*"],
+            "semanticCommitType": "build"
+        },
+        {
+            "matchDepTypes": ["dependencies", "require"],
+            "semanticCommitType": "fix"
+        },
+        {
+            "matchDatasources": ["maven"],
+            "matchDepTypes": ["compile", "provided", "runtime", "system", "import", "parent"],
+            "semanticCommitType": "fix"
+        },
         {
             "matchPackageNames": ["sort-package-json"],
             "allowedVersions": "<=1.51.0"

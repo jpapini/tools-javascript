@@ -56,7 +56,7 @@ jobs:
                   GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
               with:
                   setupGitUser: false
-                  commit: 'chore(release): bump vesion'
-                  title: 'chore(release): bump vesion'
+                  commit: 'build(release): bump vesion'
+                  title: 'build(release): bump vesion'
                   version: pnpm ci:version
                   publish: pnpm ci:publish
