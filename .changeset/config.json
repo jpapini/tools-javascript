@@ -1,6 +1,6 @@
 {
     "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
-    "baseBranch": "main",
+    "baseBranch": "origin/main",
     "fixed": [["@jpapini/*"]],
     "changelog": ["@changesets/changelog-github", { "repo": "jpapini/tools-javascript" }],
     "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
