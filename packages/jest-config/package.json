@@ -2,6 +2,11 @@
     "name": "@jpapini/jest-config",
     "version": "0.0.15",
     "description": "Shared Jest configuration for JavaScript projects.",
+    "keywords": [
+        "jest",
+        "config",
+        "typescript"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/jest-config#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -40,7 +45,8 @@
         }
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

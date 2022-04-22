@@ -1,12 +1,5 @@
 module.exports = {
     rules: {
-        // Error if engines is missing.
-        'require-engines': 'error',
-        // Error if private is missing.
-        'require-private': 'error',
-        // Error if scripts is missing.
-        'require-scripts': 'error',
-
         // Error if the value in bin is not either a string nor an object.
         'bin-type': 'error',
         // Error if the value in bundledDependencies is not an object.
@@ -56,16 +49,6 @@ module.exports = {
         // Error if the value in version is not a string.
         'version-type': 'error',
 
-        // Error if the value in author is not equal to one of the values in the array of valid values.
-        'valid-values-author': [
-            'error',
-            ['Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)'],
-        ],
-        // Error if the value in engines is not equal to one of the values in the array of valid values or if the version range is invalid.
-        'valid-values-engines': ['error', [{ node: '16' }, { node: '16', pnpm: '6' }]],
-        // Error if the value in private is not equal to one of the values in the array of valid values.
-        'valid-values-private': ['error', [true]],
-
         // Error if a dependency exists in both dependencies and devDependencies.
         'no-repeated-dependencies': 'error',
 
@@ -104,9 +87,6 @@ module.exports = {
         // Error if the dependencies in peerDependencies are not in alphabetical order.
         'prefer-alphabetical-peerDependencies': 'error',
 
-        // Error if the package.json scripts object does not contain all preferred scripts.
-        'prefer-scripts': ['error', ['clean', 'reset']],
-
         // Error if description doesn't meet the configured options.
         'description-format': [
             'error',
@@ -125,41 +105,4 @@ module.exports = {
         // Error if contributors is present.
         'prefer-no-contributors': 'error',
     },
-    overrides: [
-        {
-            patterns: ['*/**/package.json'],
-            rules: {
-                // Error if author is missing.
-                'require-author': 'error',
-                // Error if bugs is missing.
-                'require-bugs': 'error',
-                // Error if description is missing.
-                'require-description': 'error',
-                // Error if homepage is missing.
-                'require-homepage': 'error',
-                // Error if license field is missing.
-                'require-license': 'error',
-                // Error if name is missing.
-                'require-name': 'error',
-                // Error if repository.directory is missing.
-                'require-repository-directory': 'error',
-                // Error if version is missing.
-                'require-version': 'error',
-            },
-        },
-        {
-            patterns: ['packages/**/package.json'],
-            rules: {
-                // Error if files is missing.
-                'require-files': 'error',
-                // Error if private is missing.
-                'require-private': 'off',
-                // Error if publishConfig is missing.
-                'require-publishConfig': 'error',
-
-                // Error if the value in private is not equal to one of the values in the array of valid values.
-                'valid-values-private': ['error', [false]],
-            },
-        },
-    ],
 };

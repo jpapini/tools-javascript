@@ -5,7 +5,7 @@ Shared npm-package-json-lint configuration for JavaScript projects.
 ## Table of contents <!-- omit in toc -->
 
 -   [How to install](#how-to-install)
-    -   [Monorepo rules](#monorepo-rules)
+    -   [Rules](#rules)
 -   [How to use](#how-to-use)
 -   [Author](#author)
 
@@ -30,17 +30,16 @@ Add the following fields to your `package.json`:
 }
 ```
 
-### Monorepo rules
+### Rules
 
-Add the following fields to your `package.json`:
-
-```json
-{
-    "npmpackagejsonlint": {
-        "extends": "@jpapini/npm-package-json-lint-config/monorepo"
-    }
-}
-```
+| Rule name                                                    | Description                                                      |
+| ------------------------------------------------------------ | ---------------------------------------------------------------- |
+| @jpapini/npm-package-json-lint-config                        | Rules for private single repo project (e.g. React application).  |
+| @jpapini/npm-package-json-lint-config/single-public          | Rules for public single repo project (under MIT license).        |
+| @jpapini/npm-package-json-lint-config/single-private-package | Rules for private single repo package (e.g. Single NPM package). |
+| @jpapini/npm-package-json-lint-config/single-public-package  | Rules for public single repo package (under MIT license).        |
+| @jpapini/npm-package-json-lint-config/monorepo-private       | Rules for private monorepo project (e.g. Multiple NPM packages). |
+| @jpapini/npm-package-json-lint-config/monorepo-public        | Rules for public monorepo project (under MIT license).           |
 
 ## How to use
 

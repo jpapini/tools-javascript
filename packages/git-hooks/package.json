@@ -2,6 +2,13 @@
     "name": "@jpapini/git-hooks",
     "version": "0.0.15",
     "description": "Shared Git hooks for JavaScript projects.",
+    "keywords": [
+        "git",
+        "hooks",
+        "config",
+        "lint-staged",
+        "husky"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/git-hooks#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -37,7 +44,8 @@
         "rimraf": "3.0.2"
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

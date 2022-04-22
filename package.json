@@ -43,7 +43,7 @@
         "pnpm": "6"
     },
     "npmpackagejsonlint": {
-        "extends": "@jpapini/npm-package-json-lint-config/monorepo"
+        "extends": "@jpapini/npm-package-json-lint-config/monorepo-public"
     },
     "packageManager": "pnpm@6.32.9",
     "volta": {

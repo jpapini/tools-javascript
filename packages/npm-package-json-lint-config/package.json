@@ -2,6 +2,14 @@
     "name": "@jpapini/npm-package-json-lint-config",
     "version": "0.0.15",
     "description": "Shared npm-package-json-lint configuration for JavaScript projects.",
+    "keywords": [
+        "npm",
+        "package",
+        "package-json",
+        "lint",
+        "config",
+        "monorepo"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/npm-package-json-lint-config#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -15,8 +23,14 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
+        "rules",
+        "monorepo-private.js",
+        "monorepo-public.js",
+        "single-private.js",
+        "single-private-package.js",
+        "single-public.js",
+        "single-public-package.js",
         "index.js",
-        "monorepo.js",
         "LICENSE.md",
         "README.md"
     ],
@@ -33,7 +47,8 @@
         "npm-package-json-lint": ">=6.3.0"
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

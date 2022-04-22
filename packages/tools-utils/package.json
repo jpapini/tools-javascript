@@ -2,6 +2,12 @@
     "name": "@jpapini/tools-utils",
     "version": "0.0.15",
     "description": "Shared utilities for JavaScript tools.",
+    "keywords": [
+        "tools",
+        "utilities",
+        "monorepo",
+        "javascript"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/tools-utils#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -57,7 +63,8 @@
         }
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

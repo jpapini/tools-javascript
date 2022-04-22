@@ -2,6 +2,12 @@
     "name": "@jpapini/prettier-config-prisma",
     "version": "0.0.15",
     "description": "Shared Prettier configuration with Prisma plugin for JavaScript projects.",
+    "keywords": [
+        "prettier",
+        "config",
+        "prisma",
+        "format"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config-prisma#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -36,7 +42,8 @@
         "prettier": ">=2.6.0"
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

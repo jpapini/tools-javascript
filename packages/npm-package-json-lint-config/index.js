@@ -1,3 +1,1 @@
-module.exports = {
-    rules: {},
-};
+module.exports = require('./single-private');

@@ -2,6 +2,11 @@
     "name": "@jpapini/prettier-config",
     "version": "0.0.15",
     "description": "Shared Prettier configuration for JavaScript projects.",
+    "keywords": [
+        "prettier",
+        "config",
+        "format"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/prettier-config#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -32,7 +37,8 @@
         "prettier": ">=2.6.0"
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

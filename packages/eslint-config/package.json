@@ -2,6 +2,15 @@
     "name": "@jpapini/eslint-config",
     "version": "0.0.15",
     "description": "Shared ESLint configuration for JavaScript projects.",
+    "keywords": [
+        "eslint",
+        "eslint-config",
+        "typescript",
+        "javascript",
+        "jest",
+        "import",
+        "prettier"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/eslint-config#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -65,7 +74,8 @@
         }
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"

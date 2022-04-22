@@ -2,6 +2,10 @@
     "name": "@jpapini/lint-staged-config",
     "version": "0.0.15",
     "description": "Shared lint-staged configuration for JavaScript projects.",
+    "keywords": [
+        "lint-staged",
+        "config"
+    ],
     "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/lint-staged-config#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
@@ -57,7 +61,8 @@
         }
     },
     "engines": {
-        "node": "16"
+        "node": "16",
+        "pnpm": "6"
     },
     "publishConfig": {
         "access": "public"
