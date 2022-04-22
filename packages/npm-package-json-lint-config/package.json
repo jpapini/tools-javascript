@@ -16,7 +16,9 @@
     "main": "index.js",
     "files": [
         "index.js",
-        "monorepo.js"
+        "monorepo.js",
+        "LICENSE.md",
+        "README.md"
     ],
     "scripts": {
         "clean": "rimraf .turbo",

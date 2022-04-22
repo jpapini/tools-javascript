@@ -17,7 +17,9 @@
     "types": "dist/index.d.ts",
     "files": [
         "dist",
-        "src"
+        "src",
+        "LICENSE.md",
+        "README.md"
     ],
     "scripts": {
         "clean": "rimraf .turbo dist",

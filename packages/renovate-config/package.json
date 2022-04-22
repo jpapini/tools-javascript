@@ -16,7 +16,9 @@
     "main": "index.js",
     "files": [
         "default.json",
-        "index.js"
+        "index.js",
+        "LICENSE.md",
+        "README.md"
     ],
     "scripts": {
         "clean": "rimraf .turbo",

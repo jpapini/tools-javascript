@@ -18,7 +18,9 @@
         "import.js",
         "index.js",
         "jest.js",
-        "typescript.js"
+        "typescript.js",
+        "LICENSE.md",
+        "README.md"
     ],
     "scripts": {
         "clean": "rimraf .turbo",

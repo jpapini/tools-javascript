@@ -15,7 +15,9 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "files": [
         "hooks",
-        "scripts"
+        "scripts",
+        "LICENSE.md",
+        "README.md"
     ],
     "scripts": {
         "clean": "rimraf .turbo",
