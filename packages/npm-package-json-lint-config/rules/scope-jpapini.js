@@ -1,4 +1,6 @@
 module.exports = {
-    // Error if the package name does not have a scope set to one of the values in the array of valid values.
-    'valid-values-name-scope': ['error', ['@jpapini']],
+    rules: {
+        // Error if the package name does not have a scope set to one of the values in the array of valid values.
+        'valid-values-name-scope': ['error', ['@jpapini']],
+    },
 };
