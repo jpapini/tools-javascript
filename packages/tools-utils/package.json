@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/tools-utils",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "description": "Shared utilities for JavaScript tools.",
     "keywords": [
         "tools",

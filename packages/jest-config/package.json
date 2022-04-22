@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/jest-config",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "description": "Shared Jest configuration for JavaScript projects.",
     "keywords": [
         "jest",
