@@ -1,5 +1,16 @@
 # @jpapini/lint-staged-config
 
+## 0.0.16
+
+### Patch Changes
+
+-   [`ad4e743`](https://github.com/jpapini/tools-javascript/commit/ad4e743cdfa20c8523782cfa956fee9ea47c38e8) Thanks [@jpapini](https://github.com/jpapini)! - Adding LICENSE.md file.
+
+*   [`ad4e743`](https://github.com/jpapini/tools-javascript/commit/ad4e743cdfa20c8523782cfa956fee9ea47c38e8) Thanks [@jpapini](https://github.com/jpapini)! - Downgrading lint-staged to 12.3.8."
+
+*   Updated dependencies [[`ad4e743`](https://github.com/jpapini/tools-javascript/commit/ad4e743cdfa20c8523782cfa956fee9ea47c38e8)]:
+    -   @jpapini/tools-utils@0.0.16
+
 ## 0.0.15
 
 ### Patch Changes

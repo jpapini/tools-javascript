@@ -1,5 +1,13 @@
 # @jpapini/renovate-config
 
+## 0.0.16
+
+### Patch Changes
+
+-   [`ad4e743`](https://github.com/jpapini/tools-javascript/commit/ad4e743cdfa20c8523782cfa956fee9ea47c38e8) Thanks [@jpapini](https://github.com/jpapini)! - Adding LICENSE.md file.
+
+*   [`1ded606`](https://github.com/jpapini/tools-javascript/commit/1ded6067b6eb110d450ac4f8e2c283865c919112) Thanks [@jpapini](https://github.com/jpapini)! - Using "build" instead of "chore".
+
 ## 0.0.15
 
 ## 0.0.14
