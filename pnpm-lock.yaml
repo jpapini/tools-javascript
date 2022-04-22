@@ -120,7 +120,7 @@ importers:
       '@jpapini/tools-utils': workspace:*
       '@types/node': 16.11.27
       eslint: 8.13.0
-      lint-staged: 12.4.0
+      lint-staged: 12.3.8
       npm-package-json-lint: 6.3.0
       prettier: 2.6.2
       rimraf: 3.0.2
@@ -130,7 +130,7 @@ importers:
     devDependencies:
       '@types/node': 16.11.27
       eslint: 8.13.0
-      lint-staged: 12.4.0
+      lint-staged: 12.3.8
       npm-package-json-lint: 6.3.0
       prettier: 2.6.2
       rimraf: 3.0.2
@@ -3892,6 +3892,29 @@ packages:
   /lines-and-columns/1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
+  /lint-staged/12.3.8:
+    resolution: {integrity: sha512-0+UpNaqIwKRSGAFOCcpuYNIv/j5QGVC+xUVvmSdxHO+IfIGoHbFLo3XcPmV/LLnsVj5EAncNHVtlITSoY5qWGQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    hasBin: true
+    dependencies:
+      cli-truncate: 3.1.0
+      colorette: 2.0.16
+      commander: 8.3.0
+      debug: 4.3.4_supports-color@9.2.2
+      execa: 5.1.1
+      lilconfig: 2.0.4
+      listr2: 4.0.5
+      micromatch: 4.0.5
+      normalize-path: 3.0.0
+      object-inspect: 1.12.0
+      pidtree: 0.5.0
+      string-argv: 0.3.1
+      supports-color: 9.2.2
+      yaml: 1.10.2
+    transitivePeerDependencies:
+      - enquirer
+    dev: true
+
   /lint-staged/12.4.0:
     resolution: {integrity: sha512-3X7MR0h9b7qf4iXf/1n7RlVAx+EzpAZXoCEMhVSpaBlgKDfH2ewf+QUm7BddFyq29v4dgPP+8+uYpWuSWx035A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -3913,6 +3936,7 @@ packages:
       yaml: 1.10.2
     transitivePeerDependencies:
       - enquirer
+    dev: false
 
   /listr2/4.0.5:
     resolution: {integrity: sha512-juGHV1doQdpNT3GSTs9IUN43QJb7KHdF9uqg7Vufs/tG9VTzpFphqF4pm/ICdAABGQxsyNn9CiYA3StkI6jpwA==}
