@@ -1,5 +1,11 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.0.17
+
+### Patch Changes
+
+-   [`8374745`](https://github.com/jpapini/tools-javascript/commit/8374745725d9be681a11fc388603db8107b99fce) Thanks [@jpapini](https://github.com/jpapini)! - Fixing scope-jpapini rules.
+
 ## 0.0.16
 
 ### Patch Changes
