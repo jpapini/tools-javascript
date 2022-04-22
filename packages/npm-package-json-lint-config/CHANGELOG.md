@@ -1,5 +1,13 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.0.16
+
+### Patch Changes
+
+-   [`ad4e743`](https://github.com/jpapini/tools-javascript/commit/ad4e743cdfa20c8523782cfa956fee9ea47c38e8) Thanks [@jpapini](https://github.com/jpapini)! - Adding LICENSE.md file.
+
+*   [`ad4e743`](https://github.com/jpapini/tools-javascript/commit/ad4e743cdfa20c8523782cfa956fee9ea47c38e8) Thanks [@jpapini](https://github.com/jpapini)! - Creating single rules and refactoring monorepo rules.
+
 ## 0.0.15
 
 ## 0.0.14
