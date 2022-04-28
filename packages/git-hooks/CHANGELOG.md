@@ -1,5 +1,16 @@
 # @jpapini/git-hooks
 
+## 0.0.20
+
+### Patch Changes
+
+-   [`449e1a5`](https://github.com/jpapini/tools-javascript/commit/449e1a5f7d546b9162f8e3b38f15b907e976b1c7) Thanks [@jpapini](https://github.com/jpapini)! - Downgrading lint-staged to v12.3.8.
+
+-   Updated dependencies [[`449e1a5`](https://github.com/jpapini/tools-javascript/commit/449e1a5f7d546b9162f8e3b38f15b907e976b1c7)]:
+    -   @jpapini/lint-staged-config@0.0.20
+    -   @jpapini/commitlint-config@0.0.20
+    -   @jpapini/tools-utils@0.0.20
+
 ## 0.0.19
 
 ### Patch Changes
