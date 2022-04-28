@@ -34,7 +34,7 @@
         "prettier-plugin-prisma": "3.13.0"
     },
     "devDependencies": {
-        "@types/node": "16.11.27",
+        "@types/node": "16.11.31",
         "prettier": "2.6.2",
         "rimraf": "3.0.2"
     },
