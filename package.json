@@ -45,8 +45,8 @@
     "npmpackagejsonlint": {
         "extends": "@jpapini/npm-package-json-lint-config/monorepo-public"
     },
-    "packageManager": "pnpm@6.32.9",
+    "packageManager": "pnpm@6.32.11",
     "volta": {
-        "node": "16.14.2"
+        "node": "16.15.0"
     }
 }
