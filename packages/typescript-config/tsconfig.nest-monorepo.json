@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Nest.js monorepo",
+
+    "extends": "./tsconfig.nest.json",
+    "compilerOptions": {
+        // Enable constraints that allow a TypeScript project to be used with project references.
+        "composite": true
+    }
+}

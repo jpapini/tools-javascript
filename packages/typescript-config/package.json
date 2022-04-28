@@ -20,6 +20,7 @@
     "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "files": [
+        "tsconfig.nest-monorepo.json",
         "tsconfig.nest.json",
         "tsconfig.node.json",
         "LICENSE.md",

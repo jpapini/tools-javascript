@@ -23,6 +23,8 @@
 
         // Generate .d.ts files from TypeScript and JavaScript files in your project.
         "declaration": true,
+        // Create sourcemaps for d.ts files.
+        "declarationMap": true,
         // Create source map files for emitted JavaScript files.
         "sourceMap": true,
         // Specify emit/checking behavior for imports that are only used for types
