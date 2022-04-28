@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/renovate-config",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "Shared Renovate configuration for JavaScript projects.",
     "keywords": [
         "renovate",

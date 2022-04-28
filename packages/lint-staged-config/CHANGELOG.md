@@ -1,5 +1,16 @@
 # @jpapini/lint-staged-config
 
+## 0.0.19
+
+### Patch Changes
+
+-   [`c0519b4`](https://github.com/jpapini/tools-javascript/commit/c0519b47ea37db78ec96c9372dd23d01874734c9) Thanks [@jpapini](https://github.com/jpapini)! - Updating @types/node to v16.11.31.
+
+*   [`7a81fc4`](https://github.com/jpapini/tools-javascript/commit/7a81fc4f3a6b1970b456e3a9db94d17ec21acd35) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+*   Updated dependencies [[`c0519b4`](https://github.com/jpapini/tools-javascript/commit/c0519b47ea37db78ec96c9372dd23d01874734c9)]:
+    -   @jpapini/tools-utils@0.0.19
+
 ## 0.0.18
 
 ### Patch Changes

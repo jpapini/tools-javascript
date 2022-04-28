@@ -1,5 +1,11 @@
 # @jpapini/typescript-config
 
+## 0.0.19
+
+### Patch Changes
+
+-   [`e86a7b2`](https://github.com/jpapini/tools-javascript/commit/e86a7b2e63421b0d77afb0496ca001536a8d6b9c) Thanks [@jpapini](https://github.com/jpapini)! - Adding Nest.js monorepo TypeScript configuration.
+
 ## 0.0.18
 
 ## 0.0.17

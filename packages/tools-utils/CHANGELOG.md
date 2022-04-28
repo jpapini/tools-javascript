@@ -1,5 +1,11 @@
 # @jpapini/tools-utils
 
+## 0.0.19
+
+### Patch Changes
+
+-   [`c0519b4`](https://github.com/jpapini/tools-javascript/commit/c0519b47ea37db78ec96c9372dd23d01874734c9) Thanks [@jpapini](https://github.com/jpapini)! - Updating @types/node to v16.11.31.
+
 ## 0.0.18
 
 ## 0.0.17
