@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/eslint-config",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "Shared ESLint configuration for JavaScript projects.",
     "keywords": [
         "eslint",
