@@ -40,12 +40,12 @@
     },
     "engines": {
         "node": "16",
-        "pnpm": "6"
+        "pnpm": "7"
     },
     "npmpackagejsonlint": {
         "extends": "@jpapini/npm-package-json-lint-config/monorepo-public"
     },
-    "packageManager": "pnpm@6.32.11",
+    "packageManager": "pnpm@7.0.0",
     "volta": {
         "node": "16.15.0"
     }
