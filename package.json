@@ -16,7 +16,7 @@
         "changeset": "changeset",
         "changeset:status": "changeset status",
         "ci:version": "changeset version",
-        "ci:publish": "pnpm build && changeset publish"
+        "ci:publish": "pnpm run build && changeset publish"
     },
     "prettier": "@jpapini/prettier-config",
     "eslintConfig": {
@@ -36,16 +36,16 @@
         "prettier": "2.6.2",
         "rimraf": "3.0.2",
         "sort-package-json": "1.51.0",
-        "turbo": "1.2.5"
+        "turbo": "1.2.6"
     },
     "engines": {
         "node": "16",
-        "pnpm": "6"
+        "pnpm": "7"
     },
     "npmpackagejsonlint": {
         "extends": "@jpapini/npm-package-json-lint-config/monorepo-public"
     },
-    "packageManager": "pnpm@6.32.11",
+    "packageManager": "pnpm@7.0.0",
     "volta": {
         "node": "16.15.0"
     }

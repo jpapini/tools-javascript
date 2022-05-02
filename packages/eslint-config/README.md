@@ -72,9 +72,9 @@ Add the following fields to your `package.json`:
 
 ## How to use
 
-Run `pnpm lint:eslint` for linting files.
+Run `pnpm run lint:eslint` for linting files.
 
-Run `pnpm format:eslint` for formatting files.
+Run `pnpm run format:eslint` for formatting files.
 
 ## Author
 

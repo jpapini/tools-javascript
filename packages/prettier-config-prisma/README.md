@@ -32,9 +32,9 @@ Don't forget to create a `.prettierignore` file to ignore unnecessary files.
 
 ## How to use
 
-Run `pnpm lint:prettier` for linting files.
+Run `pnpm run lint:prettier` for linting files.
 
-Run `pnpm format:prettier` for formatting files.
+Run `pnpm run format:prettier` for formatting files.
 
 ## Author
 

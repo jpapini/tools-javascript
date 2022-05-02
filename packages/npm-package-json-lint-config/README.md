@@ -43,7 +43,7 @@ Add the following fields to your `package.json`:
 
 ## How to use
 
-Run `pnpm lint:pkglint` for linting `package.json` files.
+Run `pnpm run lint:pkglint` for linting `package.json` files.
 
 ## Author
 

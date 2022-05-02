@@ -58,5 +58,5 @@ jobs:
                   setupGitUser: false
                   commit: 'build(release): bump vesion'
                   title: 'build(release): bump vesion'
-                  version: pnpm ci:version
-                  publish: pnpm ci:publish
+                  version: pnpm run ci:version
+                  publish: pnpm run ci:publish

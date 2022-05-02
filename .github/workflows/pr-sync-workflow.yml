@@ -77,4 +77,4 @@ jobs:
                   restore-keys: ${{ runner.os }}-${{ env.cache-name }}-
 
             - name: Linting source code
-              run: pnpm lint
+              run: pnpm run lint
