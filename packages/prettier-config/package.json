@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/prettier-config",
-    "version": "0.0.20",
+    "version": "0.0.21",
     "description": "Shared Prettier configuration for JavaScript projects.",
     "keywords": [
         "prettier",
