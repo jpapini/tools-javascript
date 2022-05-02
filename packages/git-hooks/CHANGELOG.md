@@ -1,5 +1,18 @@
 # @jpapini/git-hooks
 
+## 0.0.22
+
+### Patch Changes
+
+-   [`6da792d`](https://github.com/jpapini/tools-javascript/commit/6da792d0c049a2aab1a20f1b758113e4bde110be) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+*   [`b39d3ec`](https://github.com/jpapini/tools-javascript/commit/b39d3ec538ab887e04bc2161c9c4ebd2ad92157f) Thanks [@jpapini](https://github.com/jpapini)! - Adding executableFiles in publishConfig.
+
+*   Updated dependencies [[`6da792d`](https://github.com/jpapini/tools-javascript/commit/6da792d0c049a2aab1a20f1b758113e4bde110be)]:
+    -   @jpapini/commitlint-config@0.0.22
+    -   @jpapini/lint-staged-config@0.0.22
+    -   @jpapini/tools-utils@0.0.22
+
 ## 0.0.21
 
 ### Patch Changes
