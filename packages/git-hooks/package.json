@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/git-hooks",
-    "version": "0.0.20",
+    "version": "0.0.21",
     "description": "Shared Git hooks for JavaScript projects.",
     "keywords": [
         "git",

@@ -1,5 +1,14 @@
 # @jpapini/lint-staged-config
 
+## 0.0.21
+
+### Patch Changes
+
+-   [`74473d5`](https://github.com/jpapini/tools-javascript/commit/74473d5f663c996b167d805d79a90b37fcc85daf) Thanks [@jpapini](https://github.com/jpapini)! - Updating PNPM to v7.0.0.
+
+-   Updated dependencies [[`74473d5`](https://github.com/jpapini/tools-javascript/commit/74473d5f663c996b167d805d79a90b37fcc85daf)]:
+    -   @jpapini/tools-utils@0.0.21
+
 ## 0.0.20
 
 ### Patch Changes
