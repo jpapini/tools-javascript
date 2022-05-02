@@ -43,7 +43,28 @@
         "pnpm": "7"
     },
     "npmpackagejsonlint": {
-        "extends": "@jpapini/npm-package-json-lint-config/monorepo-public"
+        "extends": "@jpapini/npm-package-json-lint-config/monorepo-public",
+        "overrides": [
+            {
+                "patterns": [
+                    "packages/git-hooks/package.json"
+                ],
+                "rules": {
+                    "valid-values-publishConfig": [
+                        "error",
+                        [
+                            {
+                                "access": "public",
+                                "executableFiles": [
+                                    "hooks/commit-msg",
+                                    "hooks/pre-commit"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ]
     },
     "packageManager": "pnpm@7.0.0",
     "volta": {

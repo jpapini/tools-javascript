@@ -48,6 +48,10 @@
         "pnpm": "7"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "executableFiles": [
+            "hooks/commit-msg",
+            "hooks/pre-commit"
+        ]
     }
 }
