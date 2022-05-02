@@ -1,5 +1,11 @@
 # @jpapini/tools-utils
 
+## 0.0.22
+
+### Patch Changes
+
+-   [`6da792d`](https://github.com/jpapini/tools-javascript/commit/6da792d0c049a2aab1a20f1b758113e4bde110be) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
 ## 0.0.21
 
 ### Patch Changes
