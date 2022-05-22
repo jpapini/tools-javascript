@@ -24,6 +24,7 @@
     "main": "index.js",
     "files": [
         "rules",
+        "dare.js",
         "monorepo-private.js",
         "monorepo-public.js",
         "single-private.js",
