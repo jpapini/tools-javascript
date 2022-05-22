@@ -1,8 +1,11 @@
 {
     "private": true,
     "scripts": {
-        "clean": "turbo run clean --parallel; rimraf node_modules/.cache",
-        "reset": "turbo run reset --parallel; rimraf node_modules pnpm-lock.yaml",
+        "prepare": "ts-patch install",
+        "_clean": "rimraf node_modules/.cache",
+        "_reset": "pnpm run _clean; rimraf node_modules pnpm-lock.yaml",
+        "clean": "turbo run clean --parallel; pnpm run _clean",
+        "reset": "turbo run reset --parallel; pnpm run _reset",
         "lint": "run-s -c lint:*",
         "lint:prettier": "prettier --check -u '**/*'",
         "lint:eslint": "eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache .",
@@ -20,7 +23,10 @@
     },
     "prettier": "@jpapini/prettier-config",
     "eslintConfig": {
-        "extends": "@jpapini/eslint-config"
+        "extends": [
+            "@jpapini/eslint-config",
+            "@jpapini/eslint-config/typescript"
+        ]
     },
     "devDependencies": {
         "@changesets/changelog-github": "0.4.4",
@@ -30,13 +36,18 @@
         "@jpapini/git-hooks": "workspace:*",
         "@jpapini/npm-package-json-lint-config": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
-        "eslint": "8.14.0",
+        "@jpapini/typescript-config": "workspace:*",
+        "@types/node": "16.11.36",
+        "eslint": "8.16.0",
         "npm-package-json-lint": "6.3.0",
         "npm-run-all": "4.1.5",
         "prettier": "2.6.2",
         "rimraf": "3.0.2",
         "sort-package-json": "1.51.0",
-        "turbo": "1.2.6"
+        "ts-patch": "2.0.1",
+        "turbo": "1.2.11",
+        "typescript": "4.6.4",
+        "typescript-transform-paths": "3.3.1"
     },
     "engines": {
         "node": "16",
@@ -66,7 +77,7 @@
             }
         ]
     },
-    "packageManager": "pnpm@7.0.0",
+    "packageManager": "pnpm@7.1.3",
     "volta": {
         "node": "16.15.0"
     }

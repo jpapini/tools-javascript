@@ -28,10 +28,9 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo node_modules"
+        "reset": "pnpm run clean; rimraf node_modules"
     },
     "devDependencies": {
-        "rimraf": "3.0.2",
         "typescript": "4.6.4"
     },
     "peerDependencies": {

@@ -26,15 +26,13 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo node_modules"
+        "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
         "@commitlint/config-conventional": "16.2.4"
     },
     "devDependencies": {
-        "@commitlint/cli": "16.2.4",
-        "@types/node": "16.11.33",
-        "rimraf": "3.0.2"
+        "@commitlint/cli": "16.3.0"
     },
     "peerDependencies": {
         "@commitlint/cli": ">=16.2.3"

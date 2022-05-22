@@ -1,26 +1,13 @@
 {
-    "extends": "@jpapini/typescript-config/tsconfig.node.json",
+    "extends": "../../tsconfig.json",
     "compilerOptions": {
-        // Specify the root folder within your source files.
-        "rootDirs": ["src"],
-        // Specify the base directory to resolve non-relative module names.
+        "rootDir": "src",
+        "outDir": "dist",
         "baseUrl": ".",
-        // Specify a set of entries that re-map imports to additional lookup locations.
         "paths": {
             "~/*": ["src/*"]
         },
-
-        // Specify an output folder for all emitted files.
-        "outDir": "dist",
-
-        "plugins": [
-            // Transform paths in output .js files.
-            { "transform": "typescript-transform-paths" },
-
-            // Transform paths in output .d.ts files.
-            { "transform": "typescript-transform-paths", "afterDeclarations": true }
-        ]
+        "tsBuildInfoFile": "tsconfig.tsbuildinfo"
     },
-    "include": ["src/**/*"],
-    "exclude": ["dist", "node_modules"]
+    "include": ["src/**/*"]
 }

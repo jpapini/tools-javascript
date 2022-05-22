@@ -28,39 +28,17 @@
         "README.md"
     ],
     "scripts": {
-        "clean": "rimraf .turbo dist",
-        "reset": "rimraf .turbo dist node_modules",
-        "build": "ttsc"
-    },
-    "eslintConfig": {
-        "extends": [
-            "@jpapini/eslint-config",
-            "@jpapini/eslint-config/typescript"
-        ]
+        "clean": "rimraf .turbo dist *.tsbuildinfo",
+        "reset": "pnpm run clean; rimraf node_modules",
+        "build": "tsc"
     },
     "dependencies": {
-        "@types/memoizee": "0.4.7",
+        "@types/memoizee": "0.4.8",
         "debug": "4.3.4",
         "memoizee": "0.4.15"
     },
     "devDependencies": {
-        "@jpapini/eslint-config": "workspace:*",
-        "@jpapini/typescript-config": "workspace:*",
-        "@types/debug": "4.1.7",
-        "@types/node": "16.11.33",
-        "rimraf": "3.0.2",
-        "ts-node": "10.7.0",
-        "ttypescript": "1.5.13",
-        "typescript": "4.6.4",
-        "typescript-transform-paths": "3.3.1"
-    },
-    "peerDependencies": {
-        "@types/node": ">=16.11.27 <17"
-    },
-    "peerDependenciesMeta": {
-        "@types/node": {
-            "optional": true
-        }
+        "@types/debug": "4.1.7"
     },
     "engines": {
         "node": "16",

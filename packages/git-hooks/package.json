@@ -28,20 +28,16 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo hooks/_ node_modules",
+        "reset": "pnpm run clean; rimraf hooks/_ node_modules",
         "postinstall": "node scripts/install.js"
     },
     "dependencies": {
-        "@commitlint/cli": "16.2.4",
+        "@commitlint/cli": "16.3.0",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/lint-staged-config": "workspace:*",
         "@jpapini/tools-utils": "workspace:*",
         "husky": "7.0.4",
-        "lint-staged": "12.3.8"
-    },
-    "devDependencies": {
-        "@types/node": "16.11.33",
-        "rimraf": "3.0.2"
+        "lint-staged": "12.4.1"
     },
     "engines": {
         "node": "16",

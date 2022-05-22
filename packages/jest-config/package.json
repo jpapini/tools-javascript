@@ -26,13 +26,11 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo node_modules"
+        "reset": "pnpm run clean; rimraf node_modules"
     },
     "devDependencies": {
-        "@types/node": "16.11.33",
         "jest": "27.5.1",
-        "rimraf": "3.0.2",
-        "ts-jest": "27.1.4",
+        "ts-jest": "27.1.5",
         "typescript": "4.6.4"
     },
     "peerDependencies": {

@@ -28,11 +28,7 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo node_modules"
-    },
-    "devDependencies": {
-        "@types/node": "16.11.33",
-        "rimraf": "3.0.2"
+        "reset": "pnpm run clean; rimraf node_modules"
     },
     "engines": {
         "node": "16",

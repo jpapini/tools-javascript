@@ -26,12 +26,10 @@
     ],
     "scripts": {
         "clean": "rimraf .turbo",
-        "reset": "rimraf .turbo node_modules"
+        "reset": "pnpm run clean; rimraf node_modules"
     },
     "devDependencies": {
-        "@types/node": "16.11.33",
-        "prettier": "2.6.2",
-        "rimraf": "3.0.2"
+        "prettier": "2.6.2"
     },
     "peerDependencies": {
         "prettier": ">=2.6.0"
