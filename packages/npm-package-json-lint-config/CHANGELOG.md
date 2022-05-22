@@ -1,5 +1,11 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.0.24
+
+### Patch Changes
+
+-   [`e867157`](https://github.com/jpapini/tools-javascript/commit/e8671577ea8b44f197dbd3cb3f1188bdb4707b03) Thanks [@jpapini](https://github.com/jpapini)! - Adding Dare config for npm-package-json-lint.
+
 ## 0.0.23
 
 ### Patch Changes
