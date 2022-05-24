@@ -47,9 +47,9 @@ importers:
   packages/commitlint-config:
     specifiers:
       '@commitlint/cli': 16.3.0
-      '@commitlint/config-conventional': 16.2.4
+      '@commitlint/config-conventional': 17.0.0
     dependencies:
-      '@commitlint/config-conventional': 16.2.4
+      '@commitlint/config-conventional': 17.0.0
     devDependencies:
       '@commitlint/cli': 16.3.0
 
@@ -687,9 +687,9 @@ packages:
       - '@swc/core'
       - '@swc/wasm'
 
-  /@commitlint/config-conventional/16.2.4:
-    resolution: {integrity: sha512-av2UQJa3CuE5P0dzxj/o/B9XVALqYzEViHrMXtDrW9iuflrqCStWBAioijppj9URyz6ONpohJKAtSdgAOE0gkA==}
-    engines: {node: '>=v12'}
+  /@commitlint/config-conventional/17.0.0:
+    resolution: {integrity: sha512-jttJXBIq3AuQCvUVwxSctCwKfHxxbALE0IB9OIHYCu/eQdOzPxN72pugeZsWDo1VK/T9iFx+MZoPb6Rb1/ylsw==}
+    engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 4.6.3
     dev: false
