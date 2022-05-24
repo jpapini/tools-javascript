@@ -1,5 +1,11 @@
 # @jpapini/eslint-config
 
+## 0.0.25
+
+### Patch Changes
+
+-   [`1a54393`](https://github.com/jpapini/tools-javascript/commit/1a543938a96bc048d5a0c378f1eb7535779fd594) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
 ## 0.0.24
 
 ## 0.0.23

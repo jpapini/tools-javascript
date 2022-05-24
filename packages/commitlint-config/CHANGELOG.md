@@ -1,5 +1,11 @@
 # @jpapini/commitlint-config
 
+## 0.0.25
+
+### Patch Changes
+
+-   [`70efc98`](https://github.com/jpapini/tools-javascript/commit/70efc98c109e36a7f5495a6e1d8c811f26d40042) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
 ## 0.0.24
 
 ## 0.0.23
