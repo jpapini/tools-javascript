@@ -23,6 +23,7 @@
         "tsconfig.nest-monorepo.json",
         "tsconfig.nest.json",
         "tsconfig.node.json",
+        "tsconfig.vite-react.json",
         "LICENSE.md",
         "README.md"
     ],

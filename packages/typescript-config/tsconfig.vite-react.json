@@ -1,0 +1,41 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Vite.js with React.js",
+
+    "compilerOptions": {
+        // Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+        "target": "esnext",
+        // Specify a set of bundled library declaration files that describe the target runtime environment.
+        "lib": ["esnext", "dom", "dom.iterable"],
+        // Specify what JSX code is generated.
+        "jsx": "react-jsx",
+        // Emit ECMAScript-standard-compliant class fields.
+        "useDefineForClassFields": true,
+
+        // Specify what module code is generated.
+        "module": "esnext",
+        // Specify how TypeScript looks up a file from a given module specifier.
+        "moduleResolution": "node",
+        // Enable importing .json files
+        "resolveJsonModule": true,
+
+        // Allow JavaScript files to be a part of your program. Use the `checkJS` option to get errors from these files.
+        "allowJs": true,
+
+        // Disable emitting files from a compilation.
+        "noEmit": true,
+
+        // Ensure that each file can be safely transpiled without relying on other imports.
+        "isolatedModules": true,
+        // Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility.
+        "esModuleInterop": true,
+        // Ensure that casing is correct in imports.
+        "forceConsistentCasingInFileNames": true,
+
+        // Enable all strict type-checking options.
+        "strict": true,
+
+        // Skip type checking all .d.ts files.
+        "skipLibCheck": true
+    }
+}
