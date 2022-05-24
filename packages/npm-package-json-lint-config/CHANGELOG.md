@@ -1,5 +1,11 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.0.25
+
+### Patch Changes
+
+-   [`5f12218`](https://github.com/jpapini/tools-javascript/commit/5f1221844182442b38af2473356822ffab23a0d1) Thanks [@jpapini](https://github.com/jpapini)! - Adding config for fullstack projects.
+
 ## 0.0.24
 
 ### Patch Changes

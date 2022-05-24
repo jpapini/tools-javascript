@@ -1,5 +1,13 @@
 # @jpapini/typescript-config
 
+## 0.0.25
+
+### Patch Changes
+
+-   [`1a54393`](https://github.com/jpapini/tools-javascript/commit/1a543938a96bc048d5a0c378f1eb7535779fd594) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+*   [`987320a`](https://github.com/jpapini/tools-javascript/commit/987320aa66b5a48818adb966b4a230ffe6901626) Thanks [@jpapini](https://github.com/jpapini)! - Adding Vite.js with React.js configuration.
+
 ## 0.0.24
 
 ## 0.0.23
