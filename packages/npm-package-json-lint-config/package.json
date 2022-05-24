@@ -25,6 +25,7 @@
     "files": [
         "rules",
         "dare.js",
+        "fullstack.js",
         "monorepo-private.js",
         "monorepo-public.js",
         "single-private.js",
