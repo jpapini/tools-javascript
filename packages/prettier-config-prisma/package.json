@@ -31,7 +31,7 @@
     },
     "dependencies": {
         "@jpapini/prettier-config": "workspace:*",
-        "prettier-plugin-prisma": "3.14.0"
+        "prettier-plugin-prisma": "4.1.0"
     },
     "devDependencies": {
         "prettier": "2.6.2"
