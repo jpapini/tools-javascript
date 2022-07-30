@@ -41,7 +41,7 @@ jobs:
                   restore-keys: ${{ runner.os }}-${{ env.cache-name }}-
 
             - name: Linting commits
-              uses: wagoid/commitlint-github-action@v4
+              uses: wagoid/commitlint-github-action@v5
               with:
                   configFile: node_modules/@jpapini/commitlint-config/index.js
                   failOnWarnings: true
