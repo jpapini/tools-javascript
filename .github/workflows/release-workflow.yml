@@ -4,6 +4,9 @@ on:
     push:
         branches: [main]
 
+env:
+    NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
 jobs:
     release:
         name: Release
@@ -31,15 +34,11 @@ jobs:
 
             - name: Setting up Node.js 16
               uses: actions/setup-node@v3
-              env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               with:
                   node-version: '16'
                   cache: 'pnpm'
 
             - name: Installing Node.js dependencies
-              env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               run: pnpm install --frozen-lockfile
 
             - name: Retrieving node_modules cache
@@ -54,7 +53,6 @@ jobs:
             - name: Creating release pull request
               uses: changesets/action@v1
               env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
                   GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
               with:
                   setupGitUser: false

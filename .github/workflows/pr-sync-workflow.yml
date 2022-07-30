@@ -5,6 +5,9 @@ on:
         branches: [main]
         types: [opened, reopened, synchronize]
 
+env:
+    NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
 jobs:
     test-commits:
         name: Test / Commits
@@ -21,15 +24,11 @@ jobs:
 
             - name: Setting up Node.js 16
               uses: actions/setup-node@v3
-              env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               with:
                   node-version: '16'
                   cache: 'pnpm'
 
             - name: Installing Node.js dependencies
-              env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               run: pnpm install --frozen-lockfile
 
             - name: Retrieving node_modules cache
@@ -60,15 +59,11 @@ jobs:
 
             - name: Setting up Node.js 16
               uses: actions/setup-node@v3
-              env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               with:
                   node-version: '16'
                   cache: 'pnpm'
 
             - name: Installing Node.js dependencies
-              env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               run: pnpm install --frozen-lockfile
 
             - name: Retrieving node_modules cache
