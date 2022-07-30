@@ -21,6 +21,8 @@ jobs:
 
             - name: Setting up Node.js 16
               uses: actions/setup-node@v3
+              env:
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               with:
                   node-version: '16'
                   cache: 'pnpm'
@@ -58,6 +60,8 @@ jobs:
 
             - name: Setting up Node.js 16
               uses: actions/setup-node@v3
+              env:
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               with:
                   node-version: '16'
                   cache: 'pnpm'
