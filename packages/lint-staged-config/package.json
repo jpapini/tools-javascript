@@ -19,6 +19,7 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
+        "CHANGELOG.md",
         "index.js",
         "LICENSE.md",
         "README.md"
@@ -39,7 +40,7 @@
     },
     "peerDependencies": {
         "eslint": "*",
-        "lint-staged": ">=12.3.8",
+        "lint-staged": ">=13",
         "npm-package-json-lint": "*",
         "prettier": "*",
         "sort-package-json": "*"

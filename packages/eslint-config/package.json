@@ -24,12 +24,13 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
+        "CHANGELOG.md",
         "import.js",
         "index.js",
         "jest.js",
-        "typescript.js",
         "LICENSE.md",
-        "README.md"
+        "README.md",
+        "typescript.js"
     ],
     "scripts": {
         "clean": "rimraf .turbo",
@@ -41,7 +42,7 @@
         "@typescript-eslint/parser": "5.31.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-import": "2.26.0",
-        "eslint-plugin-jest": "26.6.0",
+        "eslint-plugin-jest": "26.7.0",
         "eslint-plugin-prettier": "4.2.1",
         "eslint-plugin-simple-import-sort": "7.0.0"
     },
@@ -52,7 +53,7 @@
         "typescript": "4.7.4"
     },
     "peerDependencies": {
-        "eslint": ">=8.11.0",
+        "eslint": ">=8",
         "jest": "*",
         "prettier": "*",
         "typescript": "*"

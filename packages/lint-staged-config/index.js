@@ -6,7 +6,7 @@ const hasSortPackageJson = hasAnyDep('sort-package-json');
 const hasNpmPkgJsonLint = hasAnyDep('npm-package-json-lint');
 
 module.exports = {
-    '**/*.{js,ts}': (filenames) => {
+    '**/*.{js,jsx,ts,tsx}': (filenames) => {
         const files = filenames.join(' ');
         return [
             ...(hasPrettier ? [`prettier --write -u ${files}`] : []),

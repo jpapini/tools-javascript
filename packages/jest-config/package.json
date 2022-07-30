@@ -20,6 +20,7 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
+        "CHANGELOG.md",
         "index.js",
         "LICENSE.md",
         "README.md"
@@ -34,7 +35,7 @@
         "typescript": "4.7.4"
     },
     "peerDependencies": {
-        "jest": ">=27.5.1",
+        "jest": ">=27",
         "ts-jest": "*"
     },
     "peerDependenciesMeta": {

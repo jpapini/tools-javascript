@@ -21,6 +21,7 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
+        "CHANGELOG.md",
         "default.json",
         "index.js",
         "LICENSE.md",

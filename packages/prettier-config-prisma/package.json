@@ -21,6 +21,7 @@
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
     "main": "index.js",
     "files": [
+        "CHANGELOG.md",
         "index.js",
         "LICENSE.md",
         "README.md"
@@ -37,7 +38,7 @@
         "prettier": "2.7.1"
     },
     "peerDependencies": {
-        "prettier": ">=2.6.0"
+        "prettier": ">=2"
     },
     "engines": {
         "node": "16",
