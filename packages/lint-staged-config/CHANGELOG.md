@@ -1,5 +1,12 @@
 # @jpapini/lint-staged-config
 
+## 0.1.2
+
+### Patch Changes
+
+-   Updated dependencies []:
+    -   @jpapini/tools-utils@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes

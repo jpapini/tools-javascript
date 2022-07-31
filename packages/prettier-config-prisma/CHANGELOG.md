@@ -1,5 +1,12 @@
 # @jpapini/prettier-config-prisma
 
+## 0.1.2
+
+### Patch Changes
+
+-   Updated dependencies []:
+    -   @jpapini/prettier-config@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes
