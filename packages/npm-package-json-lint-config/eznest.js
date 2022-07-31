@@ -43,7 +43,15 @@ module.exports = {
             patterns: [
                 'packages/**/package.json',
                 'services/**/client/package.json',
+                'services/**/common/package.json',
+                'services/**/database/package.json',
+                'services/**/interfaces/package.json',
+                'services/**/schemas/package.json',
+                'services/**/shared/package.json',
+                'services/**/test/package.json',
+                'services/**/tools/package.json',
                 'services/**/types/package.json',
+                'services/**/utils/package.json',
             ],
             rules: {
                 // Error if files is missing.
