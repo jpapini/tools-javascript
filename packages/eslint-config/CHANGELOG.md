@@ -1,5 +1,11 @@
 # @jpapini/eslint-config
 
+## 0.1.1
+
+### Patch Changes
+
+-   [`d392249`](https://github.com/jpapini/tools-javascript/commit/d39224996714f0f2ca4119d42754b3fa45427130) Thanks [@jpapini](https://github.com/jpapini)! - Adding eznest scope.
+
 ## 0.1.0
 
 ### Minor Changes
