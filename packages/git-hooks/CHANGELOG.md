@@ -1,5 +1,14 @@
 # @jpapini/git-hooks
 
+## 0.1.1
+
+### Patch Changes
+
+-   Updated dependencies []:
+    -   @jpapini/commitlint-config@0.1.1
+    -   @jpapini/lint-staged-config@0.1.1
+    -   @jpapini/tools-utils@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
