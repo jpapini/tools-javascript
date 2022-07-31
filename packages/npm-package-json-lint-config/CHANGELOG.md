@@ -1,5 +1,11 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.1.2
+
+### Patch Changes
+
+-   [`bba27d8`](https://github.com/jpapini/tools-javascript/commit/bba27d82a8a92ef1565a6bbcce0dbc37ed12fa91) Thanks [@jpapini](https://github.com/jpapini)! - Adding more globs for eznest service packages.
+
 ## 0.1.1
 
 ### Patch Changes
