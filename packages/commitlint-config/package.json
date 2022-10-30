@@ -30,10 +30,10 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
-        "@commitlint/config-conventional": "17.0.3"
+        "@commitlint/config-conventional": "17.1.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "17.0.3"
+        "@commitlint/cli": "17.1.2"
     },
     "peerDependencies": {
         "@commitlint/cli": ">=17"
@@ -44,7 +44,7 @@
         }
     },
     "engines": {
-        "node": "16",
+        "node": "18",
         "pnpm": "7"
     },
     "publishConfig": {

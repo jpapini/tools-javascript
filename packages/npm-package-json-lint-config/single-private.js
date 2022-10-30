@@ -1,7 +1,7 @@
 module.exports = {
     extends: [
         require.resolve('./rules/format.js'),
-        require.resolve('./rules/engines-node-16-pnpm-7.js'),
+        require.resolve('./rules/engines-node-18-pnpm-7.js'),
         require.resolve('./rules/scripts-clean-reset.js'),
         require.resolve('./rules/author-jpapini.js'),
         require.resolve('./rules/scope-jpapini.js'),

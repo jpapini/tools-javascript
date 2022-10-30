@@ -21,6 +21,7 @@
     },
     "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "type": "commonjs",
     "main": "index.js",
     "files": [
         "rules",
@@ -49,7 +50,7 @@
         "npm-package-json-lint": ">=6"
     },
     "engines": {
-        "node": "16",
+        "node": "18",
         "pnpm": "7"
     },
     "publishConfig": {

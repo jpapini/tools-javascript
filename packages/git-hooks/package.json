@@ -20,6 +20,7 @@
     },
     "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "type": "commonjs",
     "files": [
         "hooks",
         "scripts",
@@ -33,7 +34,7 @@
         "postinstall": "node scripts/install.js"
     },
     "dependencies": {
-        "@commitlint/cli": "17.0.3",
+        "@commitlint/cli": "17.1.2",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/lint-staged-config": "workspace:*",
         "@jpapini/tools-utils": "workspace:*",
@@ -41,7 +42,7 @@
         "lint-staged": "13.0.3"
     },
     "engines": {
-        "node": "16",
+        "node": "18",
         "pnpm": "7"
     },
     "publishConfig": {

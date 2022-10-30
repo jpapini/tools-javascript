@@ -18,6 +18,7 @@
     },
     "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "type": "commonjs",
     "main": "index.js",
     "files": [
         "CHANGELOG.md",
@@ -36,7 +37,7 @@
         "prettier": ">=2"
     },
     "engines": {
-        "node": "16",
+        "node": "18",
         "pnpm": "7"
     },
     "publishConfig": {
