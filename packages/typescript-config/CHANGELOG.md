@@ -1,5 +1,11 @@
 # @jpapini/typescript-config
 
+## 0.2.0
+
+### Minor Changes
+
+-   [`8f34f94`](https://github.com/jpapini/tools-javascript/commit/8f34f945baf04252b6215bdd09b93cfa7b72690b) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies and adding Next.js configs.
+
 ## 0.1.2
 
 ## 0.1.1
