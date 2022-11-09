@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/commitlint-config",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Shared Commitlint configuration for JavaScript projects.",
     "keywords": [
         "commitlint",
