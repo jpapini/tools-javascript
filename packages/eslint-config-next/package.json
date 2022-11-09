@@ -1,23 +1,28 @@
 {
-    "name": "@jpapini/commitlint-config",
+    "name": "@jpapini/eslint-config-next",
     "version": "0.2.0",
-    "description": "Shared Commitlint configuration for JavaScript projects.",
+    "description": "Shared ESLint Next.js configuration for JavaScript projects.",
     "keywords": [
-        "commitlint",
-        "commitlint-config",
-        "conventional-commits"
+        "eslint",
+        "eslint-config",
+        "next",
+        "nextjs",
+        "react",
+        "javascript",
+        "linter"
     ],
-    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/commitlint-config#readme",
+    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/eslint-config-next#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jpapini/tools-javascript.git",
-        "directory": "packages/commitlint-config"
+        "directory": "packages/eslint-config-next"
     },
     "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "type": "commonjs",
     "main": "index.js",
     "files": [
         "CHANGELOG.md",
@@ -30,16 +35,25 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
-        "@commitlint/config-conventional": "17.2.0"
+        "@rushstack/eslint-patch": "1.2.0",
+        "eslint-config-next": "13.0.2"
     },
     "devDependencies": {
-        "@commitlint/cli": "17.2.0"
+        "eslint": "8.27.0",
+        "next": "13.0.2",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "typescript": "4.8.4"
     },
     "peerDependencies": {
-        "@commitlint/cli": ">=17"
+        "eslint": ">=8",
+        "next": "*"
     },
     "peerDependenciesMeta": {
-        "@commitlint/cli": {
+        "eslint": {
+            "optional": true
+        },
+        "next": {
             "optional": true
         }
     },

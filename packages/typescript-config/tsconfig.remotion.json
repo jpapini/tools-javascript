@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Remotion",
+
+    "extends": "./tsconfig.node.json",
+    "compilerOptions": {
+        // Specify a set of bundled library declaration files that describe the target runtime environment.
+        "lib": ["es2022", "dom", "dom.iterable"],
+        // Specify what JSX code is generated.
+        "jsx": "react-jsx",
+        // Disable emitting files from a compilation.
+        "noEmit": true,
+        // Ensure that each file can be safely transpiled without relying on other imports.
+        "isolatedModules": true
+    }
+}

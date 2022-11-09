@@ -25,27 +25,30 @@
     "eslintConfig": {
         "extends": [
             "@jpapini/eslint-config",
-            "@jpapini/eslint-config/typescript"
+            "@jpapini/eslint-config-typescript",
+            "@jpapini/eslint-config-prettier"
         ]
     },
     "devDependencies": {
         "@changesets/changelog-github": "0.4.7",
-        "@changesets/cli": "2.25.1",
+        "@changesets/cli": "2.25.2",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/eslint-config": "workspace:*",
+        "@jpapini/eslint-config-prettier": "workspace:*",
+        "@jpapini/eslint-config-typescript": "workspace:*",
         "@jpapini/git-hooks": "workspace:*",
         "@jpapini/npm-package-json-lint-config": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
         "@jpapini/typescript-config": "workspace:*",
-        "@types/node": "18.11.8",
-        "eslint": "8.26.0",
+        "@types/node": "18.11.9",
+        "eslint": "8.27.0",
         "npm-package-json-lint": "6.3.0",
         "npm-run-all": "4.1.5",
         "prettier": "2.7.1",
         "rimraf": "3.0.2",
         "sort-package-json": "1.51.0",
         "ts-patch": "2.0.2",
-        "turbo": "1.6.2",
+        "turbo": "1.6.3",
         "typescript": "4.8.4",
         "typescript-transform-paths": "3.4.4"
     },

@@ -1,23 +1,26 @@
 {
-    "name": "@jpapini/commitlint-config",
+    "name": "@jpapini/eslint-config-typescript",
     "version": "0.2.0",
-    "description": "Shared Commitlint configuration for JavaScript projects.",
+    "description": "Shared ESLint TypeScript configuration for JavaScript projects.",
     "keywords": [
-        "commitlint",
-        "commitlint-config",
-        "conventional-commits"
+        "eslint",
+        "eslint-config",
+        "typescript",
+        "javascript",
+        "linter"
     ],
-    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/commitlint-config#readme",
+    "homepage": "https://github.com/jpapini/tools-javascript/tree/main/packages/eslint-config-typescript#readme",
     "bugs": {
         "url": "https://github.com/jpapini/tools-javascript/issues"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jpapini/tools-javascript.git",
-        "directory": "packages/commitlint-config"
+        "directory": "packages/eslint-config-typescript"
     },
     "license": "MIT",
     "author": "Julien Papini <julien.papini@gmail.com> (https://github.com/jpapini)",
+    "type": "commonjs",
     "main": "index.js",
     "files": [
         "CHANGELOG.md",
@@ -30,16 +33,23 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
-        "@commitlint/config-conventional": "17.2.0"
+        "@rushstack/eslint-patch": "1.2.0",
+        "@typescript-eslint/eslint-plugin": "5.42.1",
+        "@typescript-eslint/parser": "5.42.1"
     },
     "devDependencies": {
-        "@commitlint/cli": "17.2.0"
+        "eslint": "8.27.0",
+        "typescript": "4.8.4"
     },
     "peerDependencies": {
-        "@commitlint/cli": ">=17"
+        "eslint": ">=8",
+        "typescript": "*"
     },
     "peerDependenciesMeta": {
-        "@commitlint/cli": {
+        "eslint": {
+            "optional": true
+        },
+        "typescript": {
             "optional": true
         }
     },

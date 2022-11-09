@@ -27,6 +27,7 @@
         "tsconfig.nest.json",
         "tsconfig.next.json",
         "tsconfig.node.json",
+        "tsconfig.remotion.json",
         "tsconfig.vite-react.json"
     ],
     "scripts": {

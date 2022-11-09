@@ -34,11 +34,11 @@
         "postinstall": "node scripts/install.js"
     },
     "dependencies": {
-        "@commitlint/cli": "17.1.2",
+        "@commitlint/cli": "17.2.0",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/lint-staged-config": "workspace:*",
         "@jpapini/tools-utils": "workspace:*",
-        "husky": "8.0.1",
+        "husky": "8.0.2",
         "lint-staged": "13.0.3"
     },
     "engines": {
