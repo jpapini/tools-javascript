@@ -1,5 +1,11 @@
 # @jpapini/eslint-config-react
 
+## 0.3.2
+
+### Patch Changes
+
+-   [`44a92e2`](https://github.com/jpapini/tools-javascript/commit/44a92e282084cfd17a388f46415bb78fae19595b) Thanks [@jpapini](https://github.com/jpapini)! - Fix React rules.
+
 ## 0.3.1
 
 ### Patch Changes
