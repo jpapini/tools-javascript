@@ -1,5 +1,18 @@
 # @jpapini/git-hooks
 
+## 0.3.0
+
+### Minor Changes
+
+-   [`b84125d`](https://github.com/jpapini/tools-javascript/commit/b84125d8873722aeb0b893633e20270df5d14128) Thanks [@jpapini](https://github.com/jpapini)! - Splitting ESLint configuration in multiple packages and adding Remotion configs.
+
+### Patch Changes
+
+-   Updated dependencies [[`b84125d`](https://github.com/jpapini/tools-javascript/commit/b84125d8873722aeb0b893633e20270df5d14128)]:
+    -   @jpapini/commitlint-config@0.3.0
+    -   @jpapini/lint-staged-config@0.3.0
+    -   @jpapini/tools-utils@0.3.0
+
 ## 0.2.0
 
 ### Minor Changes

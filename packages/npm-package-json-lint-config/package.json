@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/npm-package-json-lint-config",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Shared npm-package-json-lint configuration for JavaScript projects.",
     "keywords": [
         "npm",
