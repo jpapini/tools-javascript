@@ -21,7 +21,7 @@ module.exports = {
         },
     },
     rules: {
-        'react/jsx-boolean-value': ['error', 'always'],
+        'react/jsx-boolean-value': ['error', 'never'],
         'react/jsx-child-element-spacing': 'error',
         'react/jsx-closing-bracket-location': 'error',
         'react/jsx-curly-brace-presence': ['error', 'never'],
