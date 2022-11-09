@@ -1,7 +1,11 @@
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-    extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended'],
+    extends: [
+        'plugin:react/recommended',
+        'plugin:react/jsx-runtime',
+        'plugin:react-hooks/recommended',
+    ],
     plugins: ['react', 'jsx-a11y', '10x'],
     env: {
         browser: true,
@@ -22,6 +26,9 @@ module.exports = {
         'react/jsx-closing-bracket-location': 'error',
         'react/jsx-curly-brace-presence': ['error', 'never'],
         'react/jsx-tag-spacing': 'error',
+        'react/no-unknown-property': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'react/prop-types': 'off',
         'react/boolean-prop-naming': ['error', { validateNested: true }],
         'react/jsx-sort-props': [
             'error',
