@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/prettier-config-prisma",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Shared Prettier configuration with Prisma plugin for JavaScript projects.",
     "keywords": [
         "prettier",
