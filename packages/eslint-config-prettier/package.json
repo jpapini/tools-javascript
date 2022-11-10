@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/eslint-config-prettier",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Shared ESLint Prettier configuration for JavaScript projects.",
     "keywords": [
         "eslint",

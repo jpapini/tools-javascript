@@ -1,5 +1,11 @@
 # @jpapini/eslint-config-react
 
+## 0.3.3
+
+### Patch Changes
+
+-   [`1620eec`](https://github.com/jpapini/tools-javascript/commit/1620eecfd9b9ebfdf1b563980b976f2fc885cb05) Thanks [@jpapini](https://github.com/jpapini)! - Allow '{}' typings in react.
+
 ## 0.3.2
 
 ### Patch Changes
