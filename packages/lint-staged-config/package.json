@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/lint-staged-config",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Shared lint-staged configuration for JavaScript projects.",
     "keywords": [
         "lint-staged",
