@@ -4,6 +4,7 @@
         "module": "commonjs",
         "rootDir": "src",
         "outDir": "dist",
+        "noEmit": false,
         "baseUrl": ".",
         "paths": {
             "~/*": ["src/*"]

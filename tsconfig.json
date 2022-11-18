@@ -1,6 +1,7 @@
 {
     "extends": "@jpapini/typescript-config/tsconfig.node.json",
     "compilerOptions": {
+        "noEmit": true,
         "plugins": [
             { "transform": "typescript-transform-paths" },
             { "transform": "typescript-transform-paths", "afterDeclarations": true }
