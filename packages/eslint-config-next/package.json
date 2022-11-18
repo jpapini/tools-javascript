@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/eslint-config-next",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "Shared ESLint Next.js configuration for JavaScript projects.",
     "keywords": [
         "eslint",
