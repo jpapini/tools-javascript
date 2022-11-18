@@ -1,5 +1,11 @@
 # @jpapini/tools-utils
 
+## 0.3.4
+
+### Patch Changes
+
+-   [`5574b3c`](https://github.com/jpapini/tools-javascript/commit/5574b3c5f79fca890e242eb38d9dad22e2af50f9) Thanks [@jpapini](https://github.com/jpapini)! - Bump dependencies.
+
 ## 0.3.3
 
 ## 0.3.2

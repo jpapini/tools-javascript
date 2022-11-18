@@ -1,5 +1,14 @@
 # @jpapini/git-hooks
 
+## 0.3.4
+
+### Patch Changes
+
+-   Updated dependencies [[`5574b3c`](https://github.com/jpapini/tools-javascript/commit/5574b3c5f79fca890e242eb38d9dad22e2af50f9)]:
+    -   @jpapini/tools-utils@0.3.4
+    -   @jpapini/lint-staged-config@0.3.4
+    -   @jpapini/commitlint-config@0.3.4
+
 ## 0.3.3
 
 ### Patch Changes

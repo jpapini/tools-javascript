@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/eslint-config-typescript",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "Shared ESLint TypeScript configuration for JavaScript projects.",
     "keywords": [
         "eslint",

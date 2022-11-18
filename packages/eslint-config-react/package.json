@@ -1,6 +1,6 @@
 {
     "name": "@jpapini/eslint-config-react",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "Shared ESLint React.js configuration for JavaScript projects.",
     "keywords": [
         "eslint",
