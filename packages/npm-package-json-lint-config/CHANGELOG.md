@@ -1,5 +1,15 @@
 # @jpapini/npm-package-json-lint-config
 
+## 0.4.0
+
+### Minor Changes
+
+-   [`fc7490e`](https://github.com/jpapini/tools-javascript/commit/fc7490e0600ed8af096b778d08fe5c62182fa97f) Thanks [@jpapini](https://github.com/jpapini)! - More permisive glob pattern for public packages.
+
+### Patch Changes
+
+-   [`fc7490e`](https://github.com/jpapini/tools-javascript/commit/fc7490e0600ed8af096b778d08fe5c62182fa97f) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
 ## 0.3.4
 
 ## 0.3.3
