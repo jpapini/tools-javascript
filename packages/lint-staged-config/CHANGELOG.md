@@ -1,5 +1,14 @@
 # @jpapini/lint-staged-config
 
+## 0.4.0
+
+### Patch Changes
+
+-   [`fc7490e`](https://github.com/jpapini/tools-javascript/commit/fc7490e0600ed8af096b778d08fe5c62182fa97f) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+-   Updated dependencies []:
+    -   @jpapini/tools-utils@0.4.0
+
 ## 0.3.4
 
 ### Patch Changes
