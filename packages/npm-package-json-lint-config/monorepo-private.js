@@ -38,7 +38,7 @@ module.exports = {
             },
         },
         {
-            patterns: ['packages/**/package.json'],
+            patterns: ['**/packages/*/package.json'],
             rules: {
                 // Error if files is missing.
                 'require-files': 'error',
