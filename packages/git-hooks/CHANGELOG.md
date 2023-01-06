@@ -1,5 +1,16 @@
 # @jpapini/git-hooks
 
+## 0.4.1
+
+### Patch Changes
+
+-   [`f74460b`](https://github.com/jpapini/tools-javascript/commit/f74460b70837d70413267f7af9d3140b538ae85f) Thanks [@jpapini](https://github.com/jpapini)! - Updating dependencies.
+
+-   Updated dependencies [[`f74460b`](https://github.com/jpapini/tools-javascript/commit/f74460b70837d70413267f7af9d3140b538ae85f)]:
+    -   @jpapini/lint-staged-config@0.4.1
+    -   @jpapini/commitlint-config@0.4.1
+    -   @jpapini/tools-utils@0.4.1
+
 ## 0.4.0
 
 ### Patch Changes
