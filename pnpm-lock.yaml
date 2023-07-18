@@ -236,10 +236,10 @@ importers:
     specifiers:
       '@jpapini/prettier-config': workspace:*
       prettier: 2.8.1
-      prettier-plugin-prisma: 4.8.0
+      prettier-plugin-prisma: 5.0.0
     dependencies:
       '@jpapini/prettier-config': link:../prettier-config
-      prettier-plugin-prisma: 4.8.0_prettier@2.8.1
+      prettier-plugin-prisma: 5.0.0_prettier@2.8.1
     devDependencies:
       prettier: 2.8.1
 
@@ -1406,8 +1406,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@prisma/prisma-fmt-wasm/4.8.0-62.351fb726ff78e50c7d6db6331d66d4db0e378c53:
-    resolution: {integrity: sha512-OISxCNdlZ02u2NwQt99pQqpW+8elKaV0HNszJ6QVEZJZJNjnTmYIjSWycVWt+Ul3m1V0DWY4OEKCxwjpqwnjcQ==}
+  /@prisma/prisma-schema-wasm/4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584:
+    resolution: {integrity: sha512-JFdsnSgBPN8reDTLOI9Vh/6ccCb2aD1LbY/LWQnkcIgNo6IdpzvuM+qRVbBuA6IZP2SdqQI8Lu6RL2P8EFBQUA==}
     dev: false
 
   /@remotion/eslint-plugin/3.3.27_iukboom6ndih5an6iafl45j2fe:
@@ -5083,13 +5083,13 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-prisma/4.8.0_prettier@2.8.1:
-    resolution: {integrity: sha512-rCQsn+NktVbl1Sqq1oTgsB5w71vP7I5tjWJhypw6qzwnagqXsiFOLm4s3Z742EbJBS51c99CYds5s+GxGFlqNQ==}
-    engines: {node: '>=14'}
+  /prettier-plugin-prisma/5.0.0_prettier@2.8.1:
+    resolution: {integrity: sha512-jTJV04D9+yF7ziOOMs7CJe4ijgAH7DEGjt0SAWAToGNRy1H6BEhvcKA2UQH6gC6KVW5zeeOSAvsoiDDTt9oKXg==}
+    engines: {node: '>=14', npm: '>=8'}
     peerDependencies:
-      prettier: '>=2'
+      prettier: '>=2 || >=3'
     dependencies:
-      '@prisma/prisma-fmt-wasm': 4.8.0-62.351fb726ff78e50c7d6db6331d66d4db0e378c53
+      '@prisma/prisma-schema-wasm': 4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584
       prettier: 2.8.1
     dev: false
 
