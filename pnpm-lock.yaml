@@ -16,7 +16,7 @@ importers:
       '@jpapini/typescript-config': workspace:*
       '@types/node': 18.11.18
       eslint: 8.31.0
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.1.0
       npm-run-all: 4.1.5
       prettier: 2.8.1
       rimraf: 3.0.2
@@ -38,7 +38,7 @@ importers:
       '@jpapini/typescript-config': link:packages/typescript-config
       '@types/node': 18.11.18
       eslint: 8.31.0
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.1.0_typescript@4.9.4
       npm-run-all: 4.1.5
       prettier: 2.8.1
       rimraf: 3.0.2
@@ -208,7 +208,7 @@ importers:
       '@jpapini/tools-utils': workspace:*
       eslint: 8.31.0
       lint-staged: 13.1.0
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.1.0
       prettier: 2.8.1
       sort-package-json: 1.51.0
     dependencies:
@@ -216,15 +216,15 @@ importers:
     devDependencies:
       eslint: 8.31.0
       lint-staged: 13.1.0
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.1.0
       prettier: 2.8.1
       sort-package-json: 1.51.0
 
   packages/npm-package-json-lint-config:
     specifiers:
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.1.0
     devDependencies:
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.1.0
 
   packages/prettier-config:
     specifiers:
@@ -867,8 +867,8 @@ packages:
       '@commitlint/resolve-extends': 17.4.0
       '@commitlint/types': 17.4.0
       chalk: 4.1.2
-      cosmiconfig: 8.0.0
-      cosmiconfig-typescript-loader: 4.3.0_bxtyj3et3xbsdyxhh3oblnfbj4
+      cosmiconfig: 8.3.6_typescript@4.9.4
+      cosmiconfig-typescript-loader: 4.3.0_kwm32cegprxunkvzigaeszqtze
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -1679,7 +1679,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.4
       tsutils: 3.21.0_typescript@4.9.4
       typescript: 4.9.4
     transitivePeerDependencies:
@@ -1700,7 +1700,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.4
       tsutils: 3.21.0_typescript@4.9.4
       typescript: 4.9.4
     transitivePeerDependencies:
@@ -2081,7 +2081,7 @@ packages:
   /builtins/5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.4
     dev: true
 
   /call-bind/1.0.2:
@@ -2271,7 +2271,7 @@ packages:
     requiresBuild: true
     dev: false
 
-  /cosmiconfig-typescript-loader/4.3.0_bxtyj3et3xbsdyxhh3oblnfbj4:
+  /cosmiconfig-typescript-loader/4.3.0_kwm32cegprxunkvzigaeszqtze:
     resolution: {integrity: sha512-NTxV1MFfZDLPiBMjxbHRwSh5LaLcPMwNdCutmnHJCKoVnlvldPWlllonKwrsRJ5pYZBIBGRWWU2tfvzxgeSW5Q==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -2281,18 +2281,39 @@ packages:
       typescript: '>=3'
     dependencies:
       '@types/node': 18.11.18
-      cosmiconfig: 8.0.0
+      cosmiconfig: 8.3.6_typescript@4.9.4
       ts-node: 10.9.1_awa2wsr5thmg3i7jqycphctjfq
       typescript: 4.9.4
 
-  /cosmiconfig/8.0.0:
-    resolution: {integrity: sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==}
+  /cosmiconfig/8.3.6:
+    resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
     engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=4.9.5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
+    dev: true
+
+  /cosmiconfig/8.3.6_typescript@4.9.4:
+    resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=4.9.5'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      import-fresh: 3.3.0
+      js-yaml: 4.1.0
+      parse-json: 5.2.0
+      path-type: 4.0.0
+      typescript: 4.9.4
 
   /create-require/1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
@@ -4136,7 +4157,7 @@ packages:
       jest-util: 29.3.1
       natural-compare: 1.4.0
       pretty-format: 29.3.1
-      semver: 7.3.8
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
 
@@ -4742,22 +4763,22 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.4
       validate-npm-package-license: 3.0.4
 
   /normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  /npm-package-json-lint/6.4.0:
-    resolution: {integrity: sha512-cuXAJJB1Rdqz0UO6w524matlBqDBjcNt7Ru+RDIu4y6RI1gVqiWBnylrK8sPRk81gGBA0X8hJbDXolVOoTc+sA==}
-    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+  /npm-package-json-lint/7.1.0:
+    resolution: {integrity: sha512-ypcMpag32TCP89zzLSS+7vjeR2QY613WzmO2upcJgKNWlcswDz8cdb80urbBNHkhSPI40ex3nsKrRDH/WhMYOg==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     hasBin: true
     dependencies:
       ajv: 6.12.6
       ajv-errors: 1.0.1_ajv@6.12.6
       chalk: 4.1.2
-      cosmiconfig: 8.0.0
+      cosmiconfig: 8.3.6
       debug: 4.3.4
       globby: 11.1.0
       ignore: 5.2.4
@@ -4766,13 +4787,41 @@ packages:
       log-symbols: 4.1.0
       meow: 9.0.0
       plur: 4.0.0
-      semver: 7.3.8
+      semver: 7.5.4
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      type-fest: 3.5.1
+      type-fest: 4.6.0
       validate-npm-package-name: 5.0.0
     transitivePeerDependencies:
       - supports-color
+      - typescript
+    dev: true
+
+  /npm-package-json-lint/7.1.0_typescript@4.9.4:
+    resolution: {integrity: sha512-ypcMpag32TCP89zzLSS+7vjeR2QY613WzmO2upcJgKNWlcswDz8cdb80urbBNHkhSPI40ex3nsKrRDH/WhMYOg==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    hasBin: true
+    dependencies:
+      ajv: 6.12.6
+      ajv-errors: 1.0.1_ajv@6.12.6
+      chalk: 4.1.2
+      cosmiconfig: 8.3.6_typescript@4.9.4
+      debug: 4.3.4
+      globby: 11.1.0
+      ignore: 5.2.4
+      is-plain-obj: 3.0.0
+      jsonc-parser: 3.2.0
+      log-symbols: 4.1.0
+      meow: 9.0.0
+      plur: 4.0.0
+      semver: 7.5.4
+      slash: 3.0.0
+      strip-json-comments: 3.1.1
+      type-fest: 4.6.0
+      validate-npm-package-name: 5.0.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: true
 
   /npm-run-all/4.1.5:
@@ -5360,6 +5409,13 @@ packages:
 
   /semver/7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+
+  /semver/7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -5982,9 +6038,9 @@ packages:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
 
-  /type-fest/3.5.1:
-    resolution: {integrity: sha512-70T99cpILFk2fzwuljwWxmazSphFrdOe3gRHbp6bqs71pxFBbJwFqnmkLO2lQL6aLHxHmYAnP/sL+AJWpT70jA==}
-    engines: {node: '>=14.16'}
+  /type-fest/4.6.0:
+    resolution: {integrity: sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==}
+    engines: {node: '>=16'}
     dev: true
 
   /type/1.2.0:
