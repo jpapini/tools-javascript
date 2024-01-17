@@ -42,7 +42,7 @@ jobs:
               run: pnpm install --frozen-lockfile
 
             - name: Retrieving node_modules cache
-              uses: actions/cache@v3
+              uses: actions/cache@v4
               env:
                   cache-name: cache-node-modules
               with:
