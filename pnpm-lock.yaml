@@ -18,7 +18,7 @@ importers:
       eslint: 8.31.0
       npm-package-json-lint: 6.4.0
       npm-run-all: 4.1.5
-      prettier: 2.8.1
+      prettier: 3.2.5
       rimraf: 3.0.2
       sort-package-json: 1.51.0
       ts-patch: 2.1.0
@@ -40,7 +40,7 @@ importers:
       eslint: 8.31.0
       npm-package-json-lint: 6.4.0
       npm-run-all: 4.1.5
-      prettier: 2.8.1
+      prettier: 3.2.5
       rimraf: 3.0.2
       sort-package-json: 1.51.0
       ts-patch: 2.1.0_typescript@4.9.4
@@ -112,14 +112,14 @@ importers:
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0
       eslint-plugin-prettier: 4.2.1
-      prettier: 2.8.1
+      prettier: 3.2.5
     dependencies:
       '@rushstack/eslint-patch': 1.2.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
+      eslint-plugin-prettier: 4.2.1_7lgzgshibduomejomxbsliqbyu
     devDependencies:
       eslint: 8.31.0
-      prettier: 2.8.1
+      prettier: 3.2.5
 
   packages/eslint-config-react:
     specifiers:
@@ -209,7 +209,7 @@ importers:
       eslint: 8.31.0
       lint-staged: 13.1.0
       npm-package-json-lint: 6.4.0
-      prettier: 2.8.1
+      prettier: 3.2.5
       sort-package-json: 1.51.0
     dependencies:
       '@jpapini/tools-utils': link:../tools-utils
@@ -217,7 +217,7 @@ importers:
       eslint: 8.31.0
       lint-staged: 13.1.0
       npm-package-json-lint: 6.4.0
-      prettier: 2.8.1
+      prettier: 3.2.5
       sort-package-json: 1.51.0
 
   packages/npm-package-json-lint-config:
@@ -228,20 +228,20 @@ importers:
 
   packages/prettier-config:
     specifiers:
-      prettier: 2.8.1
+      prettier: 3.2.5
     devDependencies:
-      prettier: 2.8.1
+      prettier: 3.2.5
 
   packages/prettier-config-prisma:
     specifiers:
       '@jpapini/prettier-config': workspace:*
-      prettier: 2.8.1
+      prettier: 3.2.5
       prettier-plugin-prisma: 4.8.0
     dependencies:
       '@jpapini/prettier-config': link:../prettier-config
-      prettier-plugin-prisma: 4.8.0_prettier@2.8.1
+      prettier-plugin-prisma: 4.8.0_prettier@3.2.5
     devDependencies:
-      prettier: 2.8.1
+      prettier: 3.2.5
 
   packages/renovate-config:
     specifiers: {}
@@ -2862,7 +2862,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_32m5uc2milwdw3tnkcq5del26y:
+  /eslint-plugin-prettier/4.2.1_7lgzgshibduomejomxbsliqbyu:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2875,7 +2875,7 @@ packages:
     dependencies:
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      prettier: 2.8.1
+      prettier: 3.2.5
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -5083,19 +5083,25 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-prisma/4.8.0_prettier@2.8.1:
+  /prettier-plugin-prisma/4.8.0_prettier@3.2.5:
     resolution: {integrity: sha512-rCQsn+NktVbl1Sqq1oTgsB5w71vP7I5tjWJhypw6qzwnagqXsiFOLm4s3Z742EbJBS51c99CYds5s+GxGFlqNQ==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: '>=2'
     dependencies:
       '@prisma/prisma-fmt-wasm': 4.8.0-62.351fb726ff78e50c7d6db6331d66d4db0e378c53
-      prettier: 2.8.1
+      prettier: 3.2.5
     dev: false
 
   /prettier/2.8.1:
     resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
     hasBin: true
 
   /pretty-format/29.3.1:
