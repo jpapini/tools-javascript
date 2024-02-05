@@ -34,7 +34,7 @@
     },
     "devDependencies": {
         "eslint": "8.31.0",
-        "lint-staged": "13.1.0",
+        "lint-staged": "15.2.2",
         "npm-package-json-lint": "6.4.0",
         "prettier": "2.8.1",
         "sort-package-json": "1.51.0"
