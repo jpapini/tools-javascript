@@ -51,10 +51,10 @@ importers:
   packages/commitlint-config:
     specifiers:
       '@commitlint/cli': 17.4.0
-      '@commitlint/config-conventional': 17.4.0
+      '@commitlint/config-conventional': 18.6.2
       '@types/node': 18.11.18
     dependencies:
-      '@commitlint/config-conventional': 17.4.0
+      '@commitlint/config-conventional': 18.6.2
     devDependencies:
       '@commitlint/cli': 17.4.0_@types+node@18.11.18
       '@types/node': 18.11.18
@@ -806,11 +806,12 @@ packages:
       - '@swc/wasm'
       - '@types/node'
 
-  /@commitlint/config-conventional/17.4.0:
-    resolution: {integrity: sha512-G4XBf45J4ZMspO4NwBFzY3g/1Kb+B42BcIxeikF8wucQxcyxcmhRdjeQpRpS1XEcBq5pdtEEQFipuB9IuiNFhw==}
-    engines: {node: '>=v14'}
+  /@commitlint/config-conventional/18.6.2:
+    resolution: {integrity: sha512-PcgSYg1AKGQIwDQKbaHtJsfqYy4uJTC7crLVZ83lfjcPaec4Pry2vLeaWej7ao2KsT20l9dWoMPpEGg8LWdUuA==}
+    engines: {node: '>=v18'}
     dependencies:
-      conventional-changelog-conventionalcommits: 5.0.0
+      '@commitlint/types': 18.6.1
+      conventional-changelog-conventionalcommits: 7.0.2
     dev: false
 
   /@commitlint/config-validator/17.4.0:
@@ -938,6 +939,13 @@ packages:
     engines: {node: '>=v14'}
     dependencies:
       chalk: 4.1.2
+
+  /@commitlint/types/18.6.1:
+    resolution: {integrity: sha512-gwRLBLra/Dozj2OywopeuHj2ac26gjGkz2cZ+86cTJOdtWfiRRr4+e77ZDAGc6MDWxaWheI+mAV5TLWWRwqrFg==}
+    engines: {node: '>=v18'}
+    dependencies:
+      chalk: 4.1.2
+    dev: false
 
   /@cspotcode/source-map-support/0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -2239,13 +2247,11 @@ packages:
       compare-func: 2.0.0
       q: 1.5.1
 
-  /conventional-changelog-conventionalcommits/5.0.0:
-    resolution: {integrity: sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==}
-    engines: {node: '>=10'}
+  /conventional-changelog-conventionalcommits/7.0.2:
+    resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
+    engines: {node: '>=16'}
     dependencies:
       compare-func: 2.0.0
-      lodash: 4.17.21
-      q: 1.5.1
     dev: false
 
   /conventional-commits-parser/3.2.4:
