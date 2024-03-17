@@ -54,7 +54,7 @@
     },
     "engines": {
         "node": "18",
-        "pnpm": "7"
+        "pnpm": "8"
     },
     "npmpackagejsonlint": {
         "extends": "@jpapini/npm-package-json-lint-config/monorepo-public",
@@ -80,7 +80,7 @@
             }
         ]
     },
-    "packageManager": "pnpm@7.22.0",
+    "packageManager": "pnpm@8.15.5",
     "volta": {
         "node": "18.13.0"
     }
