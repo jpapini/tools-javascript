@@ -34,7 +34,7 @@
         "postinstall": "node scripts/install.js"
     },
     "dependencies": {
-        "@commitlint/cli": "17.4.0",
+        "@commitlint/cli": "19.2.1",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/lint-staged-config": "workspace:*",
         "@jpapini/tools-utils": "workspace:*",
