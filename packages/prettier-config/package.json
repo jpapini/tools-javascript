@@ -31,7 +31,7 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "devDependencies": {
-        "prettier": "2.8.1"
+        "prettier": "2.8.8"
     },
     "peerDependencies": {
         "prettier": ">=2"

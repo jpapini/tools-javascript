@@ -35,15 +35,15 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
-        "@rushstack/eslint-patch": "1.2.0",
-        "eslint-config-next": "13.1.1"
+        "@rushstack/eslint-patch": "1.8.0",
+        "eslint-config-next": "13.5.6"
     },
     "devDependencies": {
-        "eslint": "8.31.0",
+        "eslint": "8.57.0",
         "next": "13.1.1",
         "react": "18.2.0",
         "react-dom": "18.2.0",
-        "typescript": "4.9.4"
+        "typescript": "4.9.5"
     },
     "peerDependencies": {
         "eslint": ">=8",
