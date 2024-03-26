@@ -50,7 +50,7 @@
         "npm-package-json-lint": ">=6"
     },
     "engines": {
-        "node": "18",
+        "node": "20",
         "pnpm": "7"
     },
     "publishConfig": {

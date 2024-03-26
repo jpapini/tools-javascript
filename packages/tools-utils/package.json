@@ -43,7 +43,7 @@
         "@types/debug": "4.1.7"
     },
     "engines": {
-        "node": "18",
+        "node": "20",
         "pnpm": "7"
     },
     "publishConfig": {
