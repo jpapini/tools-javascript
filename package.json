@@ -30,8 +30,8 @@
         ]
     },
     "devDependencies": {
-        "@changesets/changelog-github": "0.4.8",
-        "@changesets/cli": "2.26.0",
+        "@changesets/changelog-github": "0.5.0",
+        "@changesets/cli": "2.27.1",
         "@jpapini/commitlint-config": "workspace:*",
         "@jpapini/eslint-config": "workspace:*",
         "@jpapini/eslint-config-prettier": "workspace:*",
@@ -40,17 +40,17 @@
         "@jpapini/npm-package-json-lint-config": "workspace:*",
         "@jpapini/prettier-config": "workspace:*",
         "@jpapini/typescript-config": "workspace:*",
-        "@types/node": "18.11.18",
-        "eslint": "8.31.0",
+        "@types/node": "18.19.26",
+        "eslint": "8.57.0",
         "npm-package-json-lint": "6.4.0",
         "npm-run-all": "4.1.5",
-        "prettier": "2.8.1",
+        "prettier": "2.8.8",
         "rimraf": "3.0.2",
         "sort-package-json": "1.51.0",
         "ts-patch": "2.1.0",
-        "turbo": "1.6.3",
-        "typescript": "4.9.4",
-        "typescript-transform-paths": "3.4.5"
+        "turbo": "1.13.0",
+        "typescript": "4.9.5",
+        "typescript-transform-paths": "3.4.7"
     },
     "engines": {
         "node": "18",
@@ -80,8 +80,8 @@
             }
         ]
     },
-    "packageManager": "pnpm@7.22.0",
+    "packageManager": "pnpm@7.33.7",
     "volta": {
-        "node": "18.13.0"
+        "node": "18.20.0"
     }
 }

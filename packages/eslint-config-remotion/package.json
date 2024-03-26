@@ -34,16 +34,16 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
-        "@remotion/eslint-plugin": "3.3.27",
-        "@rushstack/eslint-patch": "1.2.0",
+        "@remotion/eslint-plugin": "3.3.103",
+        "@rushstack/eslint-patch": "1.8.0",
         "eslint-plugin-10x": "1.5.2"
     },
     "devDependencies": {
-        "eslint": "8.31.0",
+        "eslint": "8.57.0",
         "react": "18.2.0",
         "react-dom": "18.2.0",
-        "remotion": "3.3.27",
-        "typescript": "4.9.4"
+        "remotion": "3.3.103",
+        "typescript": "4.9.5"
     },
     "peerDependencies": {
         "eslint": ">=8",

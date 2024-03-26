@@ -35,12 +35,12 @@
         "build": "tsc"
     },
     "dependencies": {
-        "@types/memoizee": "0.4.8",
+        "@types/memoizee": "0.4.11",
         "debug": "4.3.4",
         "memoizee": "0.4.15"
     },
     "devDependencies": {
-        "@types/debug": "4.1.7"
+        "@types/debug": "4.1.12"
     },
     "engines": {
         "node": "18",
