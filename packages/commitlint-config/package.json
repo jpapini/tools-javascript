@@ -34,7 +34,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "17.4.0",
-        "@types/node": "18.11.18"
+        "@types/node": "20.11.30"
     },
     "peerDependencies": {
         "@commitlint/cli": ">=17"
@@ -45,7 +45,7 @@
         }
     },
     "engines": {
-        "node": "18",
+        "node": "20",
         "pnpm": "7"
     },
     "publishConfig": {

@@ -33,7 +33,7 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "engines": {
-        "node": "18",
+        "node": "20",
         "pnpm": "7"
     },
     "publishConfig": {

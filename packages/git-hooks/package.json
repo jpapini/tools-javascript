@@ -42,10 +42,10 @@
         "lint-staged": "13.1.0"
     },
     "devDependencies": {
-        "@types/node": "18.11.18"
+        "@types/node": "20.11.30"
     },
     "engines": {
-        "node": "18",
+        "node": "20",
         "pnpm": "7"
     },
     "publishConfig": {
