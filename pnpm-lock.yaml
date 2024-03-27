@@ -146,7 +146,7 @@ importers:
       eslint-plugin-10x: 1.5.2
       react: 18.2.0
       react-dom: 18.2.0
-      remotion: 3.3.27
+      remotion: 4.0.133
       typescript: 4.9.4
     dependencies:
       '@remotion/eslint-plugin': 3.3.27_iukboom6ndih5an6iafl45j2fe
@@ -156,7 +156,7 @@ importers:
       eslint: 8.31.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      remotion: 3.3.27_biqbaboplfbrettd7655fr4n2y
+      remotion: 4.0.133_biqbaboplfbrettd7655fr4n2y
       typescript: 4.9.4
 
   packages/eslint-config-typescript:
@@ -5237,8 +5237,8 @@ packages:
     resolution: {integrity: sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==}
     engines: {node: '>=8'}
 
-  /remotion/3.3.27_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-JcZiQe2UC6CNn7Qlc+0+WFv6g2EdPIaMvwJc16oXed1vmTI6ZiQnP7DclpmPVr+DrJppMz9ZATV62MpCW8t7fg==}
+  /remotion/4.0.133_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-I5yVIMNCb7kxs2GTdP3NISwzzMIL8NXemZaESF9f7M7uRof4nO2wSexrtO2GbKomnCAt732i/i5nRhMigU6OUA==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
