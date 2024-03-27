@@ -34,7 +34,7 @@
         "reset": "pnpm run clean; rimraf node_modules"
     },
     "dependencies": {
-        "@remotion/eslint-plugin": "3.3.27",
+        "@remotion/eslint-plugin": "4.0.133",
         "@rushstack/eslint-patch": "1.2.0",
         "eslint-plugin-10x": "1.5.2"
     },
